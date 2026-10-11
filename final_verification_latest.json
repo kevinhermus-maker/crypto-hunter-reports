@@ -1,27 +1,9 @@
 {
-  "timestamp_utc": "2026-10-11T08:43:12.731386+00:00",
-  "source_timestamp_utc": "2026-10-11T08:42:48.614770+00:00",
-  "source_age_seconds": 24,
+  "timestamp_utc": "2026-10-11T09:06:19.531957+00:00",
+  "source_timestamp_utc": "2026-10-11T09:05:50.471644+00:00",
+  "source_age_seconds": 29,
   "status": "RESEARCH_ONLY",
-  "candidates": [
-    {
-      "pair": "WAL-EUR",
-      "status": "FINAL_REVIEW",
-      "reasons": [
-        "manual_news_setup_delisting_fees_and_entry_confirmation_required"
-      ],
-      "fresh_bid_eur": 0.034057,
-      "fresh_ask_eur": 0.03407,
-      "spread_pct": 0.038,
-      "simulated_buy_size_eur": 100.0,
-      "simulated_avg_fill_eur": 0.034116982,
-      "estimated_book_impact_pct": 0.138,
-      "historical_target_reference_eur": 0.039,
-      "estimated_net_upside_pct": 13.51,
-      "invalidation_reference_eur": 0.033911,
-      "invalidation_note": "15m MA20 reference only; manually confirm structural support"
-    }
-  ],
+  "candidates": [],
   "manual_checks_required": [
     "Upcoming Bitvavo delistings (user checks)",
     "News/catalyst or independently confirmed technical setup",

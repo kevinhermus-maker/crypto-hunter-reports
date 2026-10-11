@@ -1,6 +1,6 @@
 {
-  "timestamp_utc": "2026-10-11T09:17:54.655773+00:00",
-  "source_timestamp_utc": "2026-10-11T09:17:54.584116+00:00",
+  "timestamp_utc": "2026-10-11T09:28:01.555071+00:00",
+  "source_timestamp_utc": "2026-10-11T09:28:01.460544+00:00",
   "source_age_seconds": 0,
   "status": "RESEARCH_ONLY",
   "candidates": [
@@ -8,14 +8,13 @@
       "pair": "WAL-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
-        "insufficient_nearby_book_depth",
         "no_confirmed_research_setup"
       ],
-      "best_bid_eur": 0.034149,
-      "best_ask_eur": 0.034162,
-      "spread_pct": 0.038,
-      "book_bid_depth_2pct_eur": 34880.11,
-      "book_ask_depth_2pct_eur": 9321.03,
+      "best_bid_eur": 0.034118,
+      "best_ask_eur": 0.03413,
+      "spread_pct": 0.035,
+      "book_bid_depth_2pct_eur": 36606.06,
+      "book_ask_depth_2pct_eur": 14106.18,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -39,20 +38,30 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.039,
+          "upper_eur": 0.039078,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.039,
       "nearest_historical_overhead_eur": 0.039,
-      "estimated_net_runway_pct": 13.36
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": 13.47
     },
     {
       "pair": "SOL-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 97.676,
-      "best_ask_eur": 97.677,
+      "best_bid_eur": 97.605,
+      "best_ask_eur": 97.606,
       "spread_pct": 0.001,
-      "book_bid_depth_2pct_eur": 418093.97,
-      "book_ask_depth_2pct_eur": 403827.93,
+      "book_bid_depth_2pct_eur": 377842.67,
+      "book_ask_depth_2pct_eur": 444218.58,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -78,21 +87,36 @@
       "setup_research_routes": [
         "SUPPORT_REVERSAL_RESEARCH"
       ],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 98.195,
+          "upper_eur": 99.973,
+          "touches": 13
+        },
+        {
+          "lower_eur": 103.042,
+          "upper_eur": 109.897,
+          "touches": 73
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 98.195,
       "nearest_historical_overhead_eur": 98.195,
-      "estimated_net_runway_pct": -0.27
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.2
     },
     {
       "pair": "JUP-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.32159,
-      "best_ask_eur": 0.32209,
-      "spread_pct": 0.155,
-      "book_bid_depth_2pct_eur": 64357.38,
-      "book_ask_depth_2pct_eur": 53983.38,
+      "best_bid_eur": 0.32168,
+      "best_ask_eur": 0.3222,
+      "spread_pct": 0.162,
+      "book_bid_depth_2pct_eur": 75506.1,
+      "book_ask_depth_2pct_eur": 60010.31,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -116,20 +140,35 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.32471,
+          "upper_eur": 0.33641,
+          "touches": 13
+        },
+        {
+          "lower_eur": 0.34187,
+          "upper_eur": 0.346,
+          "touches": 4
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.32471,
       "nearest_historical_overhead_eur": 0.32471,
-      "estimated_net_runway_pct": 0.01
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.02
     },
     {
       "pair": "UNI-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 6.7556,
-      "best_ask_eur": 6.7609,
-      "spread_pct": 0.078,
-      "book_bid_depth_2pct_eur": 90163.64,
-      "book_ask_depth_2pct_eur": 80483.14,
+      "best_bid_eur": 6.7406,
+      "best_ask_eur": 6.7446,
+      "spread_pct": 0.059,
+      "book_bid_depth_2pct_eur": 95436.79,
+      "book_ask_depth_2pct_eur": 75150.89,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -155,20 +194,141 @@
       "setup_research_routes": [
         "SUPPORT_REVERSAL_RESEARCH"
       ],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 6.8165,
+          "upper_eur": 6.9004,
+          "touches": 5
+        },
+        {
+          "lower_eur": 7.02,
+          "upper_eur": 7.1649,
+          "touches": 6
+        },
+        {
+          "lower_eur": 7.3301,
+          "upper_eur": 7.3457,
+          "touches": 2
+        },
+        {
+          "lower_eur": 7.6294,
+          "upper_eur": 8.2853,
+          "touches": 54
+        },
+        {
+          "lower_eur": 8.5303,
+          "upper_eur": 8.6209,
+          "touches": 7
+        },
+        {
+          "lower_eur": 8.7205,
+          "upper_eur": 8.7367,
+          "touches": 2
+        },
+        {
+          "lower_eur": 8.881,
+          "upper_eur": 8.9505,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 6.8165,
       "nearest_historical_overhead_eur": 6.8165,
-      "estimated_net_runway_pct": 0.02
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": 0.27
+    },
+    {
+      "pair": "SENT-EUR",
+      "status": "RESEARCH_ONLY",
+      "reasons": [
+        "confirmed_zone_lacks_5pct_net_runway"
+      ],
+      "best_bid_eur": 0.019602,
+      "best_ask_eur": 0.019614,
+      "spread_pct": 0.061,
+      "book_bid_depth_2pct_eur": 48929.82,
+      "book_ask_depth_2pct_eur": 26541.12,
+      "timeframes": {
+        "15m": {
+          "ok": true,
+          "last_closed": 0.019878,
+          "ma20": 0.01914635
+        },
+        "1h": {
+          "ok": true,
+          "last_closed": 0.019479,
+          "ma20": 0.01855685
+        },
+        "4h": {
+          "ok": false,
+          "last_closed": 0.019276,
+          "ma20": 0.02004185
+        },
+        "1d": {
+          "ok": false,
+          "last_closed": 0.018633,
+          "ma20": 0.0198085
+        }
+      },
+      "setup_research_routes": [
+        "MOMENTUM_BREAKOUT_RESEARCH",
+        "BREAKOUT_RETEST_RESEARCH",
+        "SUPPORT_REVERSAL_RESEARCH"
+      ],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.019713,
+          "upper_eur": 0.019871,
+          "touches": 7
+        },
+        {
+          "lower_eur": 0.020089,
+          "upper_eur": 0.020137,
+          "touches": 2
+        },
+        {
+          "lower_eur": 0.020393,
+          "upper_eur": 0.020544,
+          "touches": 3
+        },
+        {
+          "lower_eur": 0.020843,
+          "upper_eur": 0.021256,
+          "touches": 10
+        },
+        {
+          "lower_eur": 0.021528,
+          "upper_eur": 0.022291,
+          "touches": 11
+        },
+        {
+          "lower_eur": 0.02253,
+          "upper_eur": 0.023345,
+          "touches": 13
+        },
+        {
+          "lower_eur": 0.023583,
+          "upper_eur": 0.023654,
+          "touches": 3
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.019713,
+      "nearest_historical_overhead_eur": 0.019713,
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.3
     },
     {
       "pair": "PUMP-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.004982,
-      "best_ask_eur": 0.0049882,
-      "spread_pct": 0.124,
-      "book_bid_depth_2pct_eur": 77602.29,
-      "book_ask_depth_2pct_eur": 60509.41,
+      "best_bid_eur": 0.0049767,
+      "best_ask_eur": 0.0049812,
+      "spread_pct": 0.09,
+      "book_bid_depth_2pct_eur": 86848.01,
+      "book_ask_depth_2pct_eur": 71733.64,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -196,21 +356,41 @@
         "BREAKOUT_RETEST_RESEARCH",
         "SUPPORT_REVERSAL_RESEARCH"
       ],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.0049999,
+          "upper_eur": 0.0053081,
+          "touches": 30
+        },
+        {
+          "lower_eur": 0.005376,
+          "upper_eur": 0.0055,
+          "touches": 6
+        },
+        {
+          "lower_eur": 0.0056451,
+          "upper_eur": 0.0060377,
+          "touches": 27
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.0049999,
       "nearest_historical_overhead_eur": 0.0049999,
-      "estimated_net_runway_pct": -0.57
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.42
     },
     {
       "pair": "ACT-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.009559,
-      "best_ask_eur": 0.009578,
-      "spread_pct": 0.199,
-      "book_bid_depth_2pct_eur": 32330.45,
-      "book_ask_depth_2pct_eur": 16148.64,
+      "best_bid_eur": 0.009553,
+      "best_ask_eur": 0.009573,
+      "spread_pct": 0.209,
+      "book_bid_depth_2pct_eur": 30283.81,
+      "book_ask_depth_2pct_eur": 13464.84,
       "timeframes": {
         "15m": {
           "ok": false,
@@ -234,21 +414,36 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.009594,
+          "upper_eur": 0.010184,
+          "touches": 42
+        },
+        {
+          "lower_eur": 0.010306,
+          "upper_eur": 0.010326,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.009594,
       "nearest_historical_overhead_eur": 0.009594,
-      "estimated_net_runway_pct": -0.63
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.58
     },
     {
       "pair": "BAT-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "no_confirmed_resistance_zone_target"
       ],
-      "best_bid_eur": 0.12704,
-      "best_ask_eur": 0.12732,
+      "best_bid_eur": 0.12713,
+      "best_ask_eur": 0.12741,
       "spread_pct": 0.22,
-      "book_bid_depth_2pct_eur": 37549.94,
-      "book_ask_depth_2pct_eur": 34934.41,
+      "book_bid_depth_2pct_eur": 39323.28,
+      "book_ask_depth_2pct_eur": 29930.83,
       "timeframes": {
         "15m": {
           "ok": false,
@@ -272,21 +467,25 @@
         }
       },
       "setup_research_routes": [],
-      "nearest_historical_overhead_eur": 0.1293,
-      "estimated_net_runway_pct": 0.76
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [],
+      "nearest_unconfirmed_wick_eur": 0.1293,
+      "nearest_historical_overhead_eur": null,
+      "historical_target_quality": "UNVERIFIED",
+      "estimated_net_runway_pct": null
     },
     {
       "pair": "RLC-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.93358,
-      "best_ask_eur": 0.93479,
-      "spread_pct": 0.13,
-      "book_bid_depth_2pct_eur": 35205.24,
-      "book_ask_depth_2pct_eur": 22849.83,
+      "best_bid_eur": 0.9319,
+      "best_ask_eur": 0.93358,
+      "spread_pct": 0.18,
+      "book_bid_depth_2pct_eur": 55631.5,
+      "book_ask_depth_2pct_eur": 51803.46,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -310,21 +509,46 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.95548,
+          "upper_eur": 0.96689,
+          "touches": 3
+        },
+        {
+          "lower_eur": 0.99682,
+          "upper_eur": 1.0,
+          "touches": 3
+        },
+        {
+          "lower_eur": 1.01164,
+          "upper_eur": 1.01419,
+          "touches": 2
+        },
+        {
+          "lower_eur": 1.05882,
+          "upper_eur": 1.06,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.95548,
       "nearest_historical_overhead_eur": 0.95548,
-      "estimated_net_runway_pct": 1.41
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": 1.55
     },
     {
       "pair": "SAND-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.058192,
-      "best_ask_eur": 0.058267,
-      "spread_pct": 0.129,
-      "book_bid_depth_2pct_eur": 48164.18,
-      "book_ask_depth_2pct_eur": 50874.42,
+      "best_bid_eur": 0.058261,
+      "best_ask_eur": 0.05834,
+      "spread_pct": 0.136,
+      "book_bid_depth_2pct_eur": 47332.86,
+      "book_ask_depth_2pct_eur": 36509.55,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -348,21 +572,41 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.058458,
+          "upper_eur": 0.062748,
+          "touches": 23
+        },
+        {
+          "lower_eur": 0.064394,
+          "upper_eur": 0.0665,
+          "touches": 11
+        },
+        {
+          "lower_eur": 0.067192,
+          "upper_eur": 0.071681,
+          "touches": 15
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.058458,
       "nearest_historical_overhead_eur": 0.058458,
-      "estimated_net_runway_pct": -0.47
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.6
     },
     {
       "pair": "ORCA-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 2.10409,
-      "best_ask_eur": 2.1075,
-      "spread_pct": 0.162,
-      "book_bid_depth_2pct_eur": 43316.27,
-      "book_ask_depth_2pct_eur": 34232.55,
+      "best_bid_eur": 2.10315,
+      "best_ask_eur": 2.10721,
+      "spread_pct": 0.193,
+      "book_bid_depth_2pct_eur": 40299.8,
+      "book_ask_depth_2pct_eur": 31786.39,
       "timeframes": {
         "15m": {
           "ok": false,
@@ -386,20 +630,65 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 2.11434,
+          "upper_eur": 2.12632,
+          "touches": 3
+        },
+        {
+          "lower_eur": 2.15691,
+          "upper_eur": 2.1809,
+          "touches": 3
+        },
+        {
+          "lower_eur": 2.20881,
+          "upper_eur": 2.2616,
+          "touches": 8
+        },
+        {
+          "lower_eur": 2.31407,
+          "upper_eur": 2.32408,
+          "touches": 2
+        },
+        {
+          "lower_eur": 2.4399,
+          "upper_eur": 2.43995,
+          "touches": 2
+        },
+        {
+          "lower_eur": 2.59972,
+          "upper_eur": 2.618,
+          "touches": 2
+        },
+        {
+          "lower_eur": 2.645,
+          "upper_eur": 2.6574,
+          "touches": 2
+        },
+        {
+          "lower_eur": 2.73499,
+          "upper_eur": 2.74638,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 2.11434,
       "nearest_historical_overhead_eur": 2.11434,
-      "estimated_net_runway_pct": -0.48
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.46
     },
     {
       "pair": "KAIA-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.048405,
-      "best_ask_eur": 0.048499,
-      "spread_pct": 0.194,
-      "book_bid_depth_2pct_eur": 49865.91,
-      "book_ask_depth_2pct_eur": 49157.07,
+      "best_bid_eur": 0.048138,
+      "best_ask_eur": 0.048249,
+      "spread_pct": 0.231,
+      "book_bid_depth_2pct_eur": 41189.41,
+      "book_ask_depth_2pct_eur": 49011.91,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -425,21 +714,36 @@
       "setup_research_routes": [
         "SUPPORT_REVERSAL_RESEARCH"
       ],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.050485,
+          "upper_eur": 0.051503,
+          "touches": 6
+        },
+        {
+          "lower_eur": 0.053692,
+          "upper_eur": 0.054096,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.050485,
       "nearest_historical_overhead_eur": 0.050485,
-      "estimated_net_runway_pct": 3.29
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": 3.83
     },
     {
       "pair": "ALGO-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.105937,
-      "best_ask_eur": 0.106013,
-      "spread_pct": 0.072,
-      "book_bid_depth_2pct_eur": 93202.23,
-      "book_ask_depth_2pct_eur": 85306.07,
+      "best_bid_eur": 0.105898,
+      "best_ask_eur": 0.105998,
+      "spread_pct": 0.094,
+      "book_bid_depth_2pct_eur": 58062.63,
+      "book_ask_depth_2pct_eur": 50266.25,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -463,21 +767,41 @@
         }
       },
       "setup_research_routes": [],
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.106132,
+          "upper_eur": 0.108114,
+          "touches": 16
+        },
+        {
+          "lower_eur": 0.110542,
+          "upper_eur": 0.121383,
+          "touches": 53
+        },
+        {
+          "lower_eur": 0.123333,
+          "upper_eur": 0.123638,
+          "touches": 2
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 0.106132,
       "nearest_historical_overhead_eur": 0.106132,
-      "estimated_net_runway_pct": -0.69
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.67
     },
     {
       "pair": "LPT-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 1.6085,
-      "best_ask_eur": 1.6139,
-      "spread_pct": 0.336,
-      "book_bid_depth_2pct_eur": 35131.27,
-      "book_ask_depth_2pct_eur": 31610.21,
+      "best_bid_eur": 1.6029,
+      "best_ask_eur": 1.6066,
+      "spread_pct": 0.231,
+      "book_bid_depth_2pct_eur": 37346.85,
+      "book_ask_depth_2pct_eur": 31207.29,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -501,21 +825,31 @@
         }
       },
       "setup_research_routes": [],
-      "nearest_historical_overhead_eur": 1.6161,
-      "estimated_net_runway_pct": -0.66
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 1.61,
+          "upper_eur": 1.6991,
+          "touches": 20
+        }
+      ],
+      "nearest_unconfirmed_wick_eur": 1.61,
+      "nearest_historical_overhead_eur": 1.61,
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": -0.59
     },
     {
       "pair": "CT-EUR",
       "status": "RESEARCH_ONLY",
       "reasons": [
         "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
+        "confirmed_zone_lacks_5pct_net_runway"
       ],
-      "best_bid_eur": 0.29056,
-      "best_ask_eur": 0.29116,
+      "best_bid_eur": 0.29076,
+      "best_ask_eur": 0.29136,
       "spread_pct": 0.206,
-      "book_bid_depth_2pct_eur": 60001.74,
-      "book_ask_depth_2pct_eur": 44822.09,
+      "book_bid_depth_2pct_eur": 89045.15,
+      "book_ask_depth_2pct_eur": 44052.17,
       "timeframes": {
         "15m": {
           "ok": true,
@@ -538,46 +872,53 @@
         }
       },
       "setup_research_routes": [],
-      "nearest_historical_overhead_eur": 0.29528,
-      "estimated_net_runway_pct": 0.62
-    },
-    {
-      "pair": "VVV-EUR",
-      "status": "RESEARCH_ONLY",
-      "reasons": [
-        "no_confirmed_research_setup",
-        "nearest_overhead_lacks_5pct_net_runway"
-      ],
-      "best_bid_eur": 20.0603,
-      "best_ask_eur": 20.0874,
-      "spread_pct": 0.135,
-      "book_bid_depth_2pct_eur": 48159.95,
-      "book_ask_depth_2pct_eur": 32859.84,
-      "timeframes": {
-        "15m": {
-          "ok": true,
-          "last_closed": 20.0683,
-          "ma20": 19.97743
+      "resistance_method": "repeated_4h_high_zones",
+      "resistance_zones": [
+        {
+          "lower_eur": 0.29528,
+          "upper_eur": 0.29768,
+          "touches": 2
         },
-        "1h": {
-          "ok": false,
-          "last_closed": 20.0818,
-          "ma20": 20.18804
+        {
+          "lower_eur": 0.31953,
+          "upper_eur": 0.3243,
+          "touches": 3
         },
-        "4h": {
-          "ok": false,
-          "last_closed": 19.8522,
-          "ma20": 20.350485
+        {
+          "lower_eur": 0.33331,
+          "upper_eur": 0.33866,
+          "touches": 5
         },
-        "1d": {
-          "ok": false,
-          "last_closed": 20.3422,
-          "ma20": 24.64276
+        {
+          "lower_eur": 0.3438,
+          "upper_eur": 0.34557,
+          "touches": 3
+        },
+        {
+          "lower_eur": 0.35614,
+          "upper_eur": 0.36293,
+          "touches": 6
+        },
+        {
+          "lower_eur": 0.36907,
+          "upper_eur": 0.37499,
+          "touches": 5
+        },
+        {
+          "lower_eur": 0.4322,
+          "upper_eur": 0.44404,
+          "touches": 10
+        },
+        {
+          "lower_eur": 0.45125,
+          "upper_eur": 0.45552,
+          "touches": 3
         }
-      },
-      "setup_research_routes": [],
-      "nearest_historical_overhead_eur": 20.139,
-      "estimated_net_runway_pct": -0.54
+      ],
+      "nearest_unconfirmed_wick_eur": 0.29528,
+      "nearest_historical_overhead_eur": 0.29528,
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_runway_pct": 0.55
     }
   ],
   "disclaimer": "Research only. No orders or automatically authorized BUY.",

@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-10-11T08:19:27.938216+00:00",
+  "source_timestamp_utc": "2026-10-11T08:19:10.720302+00:00",
+  "source_age_seconds": 17,
+  "status": "RESEARCH_ONLY",
+  "candidates": [
+    {
+      "pair": "WAL-EUR",
+      "status": "FINAL_REVIEW",
+      "reasons": [
+        "manual_news_setup_delisting_fees_and_entry_confirmation_required"
+      ],
+      "fresh_bid_eur": 0.034766,
+      "fresh_ask_eur": 0.0348,
+      "spread_pct": 0.098,
+      "simulated_buy_size_eur": 100.0,
+      "simulated_avg_fill_eur": 0.0348593428,
+      "estimated_book_impact_pct": 0.171,
+      "historical_target_reference_eur": 0.039,
+      "estimated_net_upside_pct": 11.08,
+      "invalidation_reference_eur": 0.03382165,
+      "invalidation_note": "15m MA20 reference only; manually confirm structural support"
+    }
+  ],
+  "manual_checks_required": [
+    "Upcoming Bitvavo delistings (user checks)",
+    "News/catalyst or independently confirmed technical setup",
+    "Actual Bitvavo fee tier and entry/exit order costs",
+    "Current chart support/invalidation and final entry price"
+  ],
+  "disclaimer": "No automatic BUY, orders or guaranteed profits."
+}

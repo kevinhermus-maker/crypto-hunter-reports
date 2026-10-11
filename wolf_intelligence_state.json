@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_utc": "2026-10-11T12:39:08.603386+00:00",
+  "updated_utc": "2026-10-11T13:34:42.863073+00:00",
   "events": [
     {
       "id": "2026-10-11T08:42:48.539493+00:00|WAL-EUR|FINAL_REVIEW",
@@ -12,11 +12,11 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.033911,
-      "last_observed_price_eur": 0.034416,
-      "last_observed_utc": "2026-10-11T12:36:35.195300+00:00",
+      "last_observed_price_eur": 0.033869,
+      "last_observed_utc": "2026-10-11T13:32:33.320180+00:00",
       "observed_high_eur": 0.034416,
       "observed_low_eur": 0.033627,
-      "last_change_pct": 0.876,
+      "last_change_pct": -0.727,
       "best_observed_change_pct": 0.876,
       "worst_observed_change_pct": -1.436,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
@@ -31,11 +31,11 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.31953,
       "invalidation_reference_eur": 0.28799,
-      "last_observed_price_eur": 0.28868,
-      "last_observed_utc": "2026-10-11T12:36:35.195300+00:00",
+      "last_observed_price_eur": 0.29251,
+      "last_observed_utc": "2026-10-11T13:32:33.320180+00:00",
       "observed_high_eur": 0.295753692,
       "observed_low_eur": 0.28711,
-      "last_change_pct": -2.392,
+      "last_change_pct": -1.097,
       "best_observed_change_pct": 0.0,
       "worst_observed_change_pct": -2.923,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
@@ -50,13 +50,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.03413285,
-      "last_observed_price_eur": null,
-      "last_observed_utc": null,
+      "last_observed_price_eur": 0.033869,
+      "last_observed_utc": "2026-10-11T13:32:33.320180+00:00",
       "observed_high_eur": 0.034181,
-      "observed_low_eur": 0.034181,
-      "last_change_pct": null,
+      "observed_low_eur": 0.033869,
+      "last_change_pct": -0.913,
       "best_observed_change_pct": 0.0,
-      "worst_observed_change_pct": 0.0,
+      "worst_observed_change_pct": -0.913,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     }
   ]

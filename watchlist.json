@@ -4,13 +4,13 @@
     {
       "pair": "ARPA-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "support_reversal",
+      "setup_type": "breakout_preparation",
       "trigger_eur": 0.0111742,
       "invalidation_reference_eur": 0.0107071,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 6,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -19,22 +19,22 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.29881,
       "invalidation_reference_eur": 0.28245,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 7,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "NMR-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
-      "trigger_eur": 12.4837,
+      "trigger_eur": 12.299,
       "invalidation_reference_eur": 11.9346,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 10,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -43,22 +43,22 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.07551,
       "invalidation_reference_eur": 0.0719,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 7,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "SOL-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "breakout_preparation",
-      "trigger_eur": 98.134,
+      "setup_type": "support_reversal",
+      "trigger_eur": 98.046,
       "invalidation_reference_eur": 97.445,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 6,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -79,7 +79,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.034879,
       "invalidation_reference_eur": 0.033512,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -90,8 +90,8 @@
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
       "trigger_eur": 2.09167,
-      "invalidation_reference_eur": 2.029,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "invalidation_reference_eur": 2.03998,
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -101,12 +101,12 @@
       "pair": "AVAX-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
-      "trigger_eur": 9.3549,
+      "trigger_eur": 9.3863,
       "invalidation_reference_eur": 9.1901,
-      "last_confirmed_utc": "2026-10-11T12:36:35.194276+00:00",
+      "last_confirmed_utc": "2026-10-11T13:32:33.319082+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 9,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -223,5 +223,5 @@
       "timestamp_utc": "2026-10-11T11:37:34.991780+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T12:36:35.194276+00:00"
+  "updated_utc": "2026-10-11T13:32:33.319082+00:00"
 }

@@ -7,7 +7,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.0111139,
       "invalidation_reference_eur": 0.0104299,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 10,
@@ -19,7 +19,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.29136,
       "invalidation_reference_eur": 0.27546,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 10,
@@ -31,10 +31,10 @@
       "setup_type": "support_reversal",
       "trigger_eur": 12.4837,
       "invalidation_reference_eur": 11.7966,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 9,
+      "score": 7,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -43,7 +43,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.0782,
       "invalidation_reference_eur": 0.0719,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 9,
@@ -55,10 +55,10 @@
       "setup_type": "breakout_preparation",
       "trigger_eur": 98.352,
       "invalidation_reference_eur": 97.205,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 6,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -67,19 +67,19 @@
       "setup_type": "breakout_preparation",
       "trigger_eur": 76.755,
       "invalidation_reference_eur": 75.328,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 6,
       "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "WAL-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
-      "trigger_eur": 0.034821,
+      "trigger_eur": 0.034666,
       "invalidation_reference_eur": 0.032767,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -91,10 +91,10 @@
       "setup_type": "breakout_preparation",
       "trigger_eur": 2.12198,
       "invalidation_reference_eur": 2.029,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 7,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -103,7 +103,7 @@
       "setup_type": "breakout_preparation",
       "trigger_eur": 9.2765,
       "invalidation_reference_eur": 9.0937,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -114,8 +114,8 @@
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
       "trigger_eur": 0.20076,
-      "invalidation_reference_eur": 0.19698,
-      "last_confirmed_utc": "2026-10-11T07:29:33.456721+00:00",
+      "invalidation_reference_eur": 0.19684,
+      "last_confirmed_utc": "2026-10-11T07:31:49.270363+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -185,5 +185,5 @@
       "timestamp_utc": "2026-10-11T07:18:55.275258+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T07:29:33.456721+00:00"
+  "updated_utc": "2026-10-11T07:31:49.270363+00:00"
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_utc": "2026-10-11T20:33:47.538588+00:00",
+  "updated_utc": "2026-10-11T21:34:34.472365+00:00",
   "events": [
     {
       "id": "2026-10-11T08:42:48.539493+00:00|WAL-EUR|FINAL_REVIEW",
@@ -12,13 +12,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.033911,
-      "last_observed_price_eur": 0.03371,
-      "last_observed_utc": "2026-10-11T20:31:10.395632+00:00",
+      "last_observed_price_eur": 0.033287,
+      "last_observed_utc": "2026-10-11T21:31:49.434035+00:00",
       "observed_high_eur": 0.034416,
-      "observed_low_eur": 0.033317,
-      "last_change_pct": -1.193,
+      "observed_low_eur": 0.033287,
+      "last_change_pct": -2.433,
       "best_observed_change_pct": 0.876,
-      "worst_observed_change_pct": -2.345,
+      "worst_observed_change_pct": -2.433,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -31,13 +31,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.31953,
       "invalidation_reference_eur": 0.28799,
-      "last_observed_price_eur": 0.28036,
-      "last_observed_utc": "2026-10-11T20:31:10.395632+00:00",
+      "last_observed_price_eur": 0.2786,
+      "last_observed_utc": "2026-10-11T21:31:49.434035+00:00",
       "observed_high_eur": 0.295753692,
-      "observed_low_eur": 0.28036,
-      "last_change_pct": -5.205,
+      "observed_low_eur": 0.2786,
+      "last_change_pct": -5.8,
       "best_observed_change_pct": 0.0,
-      "worst_observed_change_pct": -5.205,
+      "worst_observed_change_pct": -5.8,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -50,13 +50,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.03413285,
-      "last_observed_price_eur": 0.03371,
-      "last_observed_utc": "2026-10-11T20:31:10.395632+00:00",
+      "last_observed_price_eur": 0.033287,
+      "last_observed_utc": "2026-10-11T21:31:49.434035+00:00",
       "observed_high_eur": 0.034254,
-      "observed_low_eur": 0.033317,
-      "last_change_pct": -1.378,
+      "observed_low_eur": 0.033287,
+      "last_change_pct": -2.615,
       "best_observed_change_pct": 0.214,
-      "worst_observed_change_pct": -2.528,
+      "worst_observed_change_pct": -2.615,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -69,13 +69,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.009795,
       "invalidation_reference_eur": 0.0087603,
-      "last_observed_price_eur": 0.00883,
-      "last_observed_utc": "2026-10-11T20:31:10.395632+00:00",
+      "last_observed_price_eur": 0.008755,
+      "last_observed_utc": "2026-10-11T21:31:49.434035+00:00",
       "observed_high_eur": 0.009298,
-      "observed_low_eur": 0.00883,
-      "last_change_pct": -2.743,
+      "observed_low_eur": 0.008755,
+      "last_change_pct": -3.569,
       "best_observed_change_pct": 2.412,
-      "worst_observed_change_pct": -2.743,
+      "worst_observed_change_pct": -3.569,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -88,13 +88,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.47981,
       "invalidation_reference_eur": 0.4488015,
-      "last_observed_price_eur": null,
-      "last_observed_utc": null,
+      "last_observed_price_eur": 0.4517,
+      "last_observed_utc": "2026-10-11T21:31:49.434035+00:00",
       "observed_high_eur": 0.4530587012,
-      "observed_low_eur": 0.4530587012,
-      "last_change_pct": null,
+      "observed_low_eur": 0.4517,
+      "last_change_pct": -0.3,
       "best_observed_change_pct": 0.0,
-      "worst_observed_change_pct": 0.0,
+      "worst_observed_change_pct": -0.3,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     }
   ]

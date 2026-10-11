@@ -1,9 +1,37 @@
 {
-  "timestamp_utc": "2026-10-11T09:42:54.174260+00:00",
-  "source_timestamp_utc": "2026-10-11T09:41:54.686213+00:00",
-  "source_age_seconds": 59,
+  "timestamp_utc": "2026-10-11T09:50:25.910240+00:00",
+  "source_timestamp_utc": "2026-10-11T09:49:21.082632+00:00",
+  "source_age_seconds": 65,
   "status": "RESEARCH_ONLY",
-  "candidates": [],
+  "candidates": [
+    {
+      "pair": "CT-EUR",
+      "status": "WATCH",
+      "reasons": [
+        "missing_step3_timeframe_data"
+      ],
+      "setup_research_routes": [
+        "BREAKOUT_RETEST_RESEARCH",
+        "MOMENTUM_BREAKOUT_RESEARCH",
+        "SUPPORT_REVERSAL_RESEARCH"
+      ],
+      "fresh_bid_eur": 0.29609,
+      "fresh_ask_eur": 0.29671,
+      "spread_pct": 0.209,
+      "simulated_buy_size_eur": 100.0,
+      "simulated_avg_fill_eur": 0.29671,
+      "estimated_book_impact_pct": 0.0,
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "target_zone_lower_eur": 0.31953,
+      "target_zone_upper_eur": 0.3243,
+      "target_zone_touches": 3,
+      "intermediate_wick_warning": true,
+      "historical_target_reference_eur": 0.31953,
+      "estimated_net_upside_pct": 6.89,
+      "invalidation_reference_eur": 0.28799,
+      "invalidation_note": "15m MA20 reference only; Step 6 must verify structural support"
+    }
+  ],
   "manual_checks_required": [
     "Upcoming Bitvavo delistings (user checks)",
     "Independent news/catalyst or strong technical setup",

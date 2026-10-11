@@ -1,8 +1,9 @@
 {
-  "timestamp_utc": "2026-10-11T10:28:31.033087+00:00",
+  "timestamp_utc": "2026-10-11T11:09:05.775249+00:00",
   "status": "OK",
   "signals": [],
   "buy_count": 0,
+  "diagnostic_version": "2.4",
   "note": "Read-only BUY/WATCH decisions. No orders placed.",
   "evaluated_count": 0,
   "upstream_ready_count": 0

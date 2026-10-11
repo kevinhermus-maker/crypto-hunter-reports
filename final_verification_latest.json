@@ -1,9 +1,37 @@
 {
-  "timestamp_utc": "2026-10-11T11:40:03.062091+00:00",
-  "source_timestamp_utc": "2026-10-11T11:37:35.061996+00:00",
-  "source_age_seconds": 148,
+  "timestamp_utc": "2026-10-11T12:39:06.063119+00:00",
+  "source_timestamp_utc": "2026-10-11T12:36:35.274341+00:00",
+  "source_age_seconds": 151,
   "status": "RESEARCH_ONLY",
-  "candidates": [],
+  "candidates": [
+    {
+      "pair": "WAL-EUR",
+      "status": "FINAL_REVIEW",
+      "reasons": [
+        "independent_entry_news_fees_and_delisting_checks_still_required"
+      ],
+      "setup_research_routes": [
+        "SUPPORT_REVERSAL_RESEARCH"
+      ],
+      "fresh_bid_eur": 0.034138,
+      "fresh_ask_eur": 0.034181,
+      "spread_pct": 0.126,
+      "simulated_buy_size_eur": 100.0,
+      "simulated_avg_fill_eur": 0.034181,
+      "estimated_book_impact_pct": 0.0,
+      "historical_target_quality": "REPEATED_HIGH_ZONE",
+      "target_zone_lower_eur": 0.039,
+      "target_zone_upper_eur": 0.039078,
+      "target_zone_touches": 2,
+      "intermediate_wick_warning": true,
+      "historical_target_reference_eur": 0.039,
+      "estimated_net_upside_pct": 13.3,
+      "invalidation_reference_eur": 0.03413285,
+      "invalidation_note": "15m MA20 reference only; Step 6 must verify structural support",
+      "mandatory_timeframes_valid": true,
+      "daily_timeframe_available": true
+    }
+  ],
   "manual_checks_required": [
     "Upcoming Bitvavo delistings (user checks)",
     "Independent news/catalyst or strong technical setup",

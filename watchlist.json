@@ -7,7 +7,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.0111139,
       "invalidation_reference_eur": 0.0107071,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 6,
@@ -19,7 +19,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.29881,
       "invalidation_reference_eur": 0.28245,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 9,
@@ -30,23 +30,23 @@
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
       "trigger_eur": 12.4837,
-      "invalidation_reference_eur": 11.7966,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "invalidation_reference_eur": 11.8107,
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 10,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "YB-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "breakout_preparation",
+      "setup_type": "support_reversal",
       "trigger_eur": 0.07551,
       "invalidation_reference_eur": 0.0719,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 5,
+      "score": 7,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -55,7 +55,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 98.134,
       "invalidation_reference_eur": 97.445,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -78,11 +78,11 @@
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
       "trigger_eur": 0.034879,
-      "invalidation_reference_eur": 0.033398,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "invalidation_reference_eur": 0.033464,
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 7,
+      "score": 6,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -91,7 +91,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 2.087,
       "invalidation_reference_eur": 2.029,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -103,7 +103,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 9.2483,
       "invalidation_reference_eur": 9.1638,
-      "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
+      "last_confirmed_utc": "2026-10-11T11:37:34.991780+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -117,9 +117,9 @@
       "invalidation_reference_eur": 0.19673,
       "last_confirmed_utc": "2026-10-11T11:30:59.051507+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 6,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     }
   ],
   "archived": [],
@@ -215,7 +215,13 @@
       "event": "UNCONFIRMED",
       "reason": "research_only_this_scan",
       "timestamp_utc": "2026-10-11T10:27:30.849391+00:00"
+    },
+    {
+      "pair": "ENA-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-11T11:37:34.991780+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T11:30:59.051507+00:00"
+  "updated_utc": "2026-10-11T11:37:34.991780+00:00"
 }

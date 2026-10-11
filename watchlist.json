@@ -6,8 +6,8 @@
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
       "trigger_eur": 0.0111742,
-      "invalidation_reference_eur": 0.0107153,
-      "last_confirmed_utc": "2026-10-11T18:34:24.643767+00:00",
+      "invalidation_reference_eur": 0.0107142,
+      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 7,
@@ -21,9 +21,9 @@
       "invalidation_reference_eur": 0.2857,
       "last_confirmed_utc": "2026-10-11T18:34:24.643767+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 5,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     },
     {
       "pair": "NMR-EUR",
@@ -31,7 +31,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 12.4244,
       "invalidation_reference_eur": 12.0663,
-      "last_confirmed_utc": "2026-10-11T18:34:24.643767+00:00",
+      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -77,12 +77,12 @@
       "pair": "WAL-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
-      "trigger_eur": 0.034873,
-      "invalidation_reference_eur": 0.033607,
-      "last_confirmed_utc": "2026-10-11T18:34:24.643767+00:00",
+      "trigger_eur": 0.034522,
+      "invalidation_reference_eur": 0.033587,
+      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 7,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -245,7 +245,13 @@
       "event": "UNCONFIRMED",
       "reason": "research_only_this_scan",
       "timestamp_utc": "2026-10-11T18:34:24.643767+00:00"
+    },
+    {
+      "pair": "CT-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-11T19:00:48.816842+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T18:34:24.643767+00:00"
+  "updated_utc": "2026-10-11T19:00:48.816842+00:00"
 }

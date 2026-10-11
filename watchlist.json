@@ -4,14 +4,14 @@
     {
       "pair": "ARPA-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "support_reversal",
-      "trigger_eur": 0.0111742,
-      "invalidation_reference_eur": 0.0107142,
-      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
+      "setup_type": "breakout_preparation",
+      "trigger_eur": 0.01112,
+      "invalidation_reference_eur": 0.0106917,
+      "last_confirmed_utc": "2026-10-11T20:31:10.392191+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "UNCONFIRMED",
-      "score": 7,
-      "last_reason": "research_only_this_scan"
+      "current_confirmation": "SCANNER_WATCH",
+      "score": 5,
+      "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "CT-EUR",
@@ -31,10 +31,10 @@
       "setup_type": "support_reversal",
       "trigger_eur": 12.4244,
       "invalidation_reference_eur": 12.0663,
-      "last_confirmed_utc": "2026-10-11T19:30:42.591279+00:00",
+      "last_confirmed_utc": "2026-10-11T20:31:10.392191+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 8,
+      "score": 6,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -45,9 +45,9 @@
       "invalidation_reference_eur": 0.07205,
       "last_confirmed_utc": "2026-10-11T19:30:42.591279+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 7,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     },
     {
       "pair": "SOL-EUR",
@@ -76,14 +76,14 @@
     {
       "pair": "WAL-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "support_reversal",
-      "trigger_eur": 0.034522,
-      "invalidation_reference_eur": 0.033587,
-      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
+      "setup_type": "breakout_preparation",
+      "trigger_eur": 0.034449,
+      "invalidation_reference_eur": 0.033216,
+      "last_confirmed_utc": "2026-10-11T20:31:10.392191+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "UNCONFIRMED",
-      "score": 8,
-      "last_reason": "research_only_this_scan"
+      "current_confirmation": "SCANNER_WATCH",
+      "score": 6,
+      "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "RAY-EUR",
@@ -263,7 +263,13 @@
       "event": "UNCONFIRMED",
       "reason": "research_only_this_scan",
       "timestamp_utc": "2026-10-11T19:30:42.591279+00:00"
+    },
+    {
+      "pair": "YB-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-11T20:31:10.392191+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T19:30:42.591279+00:00"
+  "updated_utc": "2026-10-11T20:31:10.392191+00:00"
 }

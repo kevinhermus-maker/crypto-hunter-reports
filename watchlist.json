@@ -9,9 +9,9 @@
       "invalidation_reference_eur": 0.0107142,
       "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 7,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     },
     {
       "pair": "CT-EUR",
@@ -31,7 +31,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 12.4244,
       "invalidation_reference_eur": 12.0663,
-      "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
+      "last_confirmed_utc": "2026-10-11T19:30:42.591279+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 8,
@@ -41,13 +41,13 @@
       "pair": "YB-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "support_reversal",
-      "trigger_eur": 0.07551,
-      "invalidation_reference_eur": 0.07201,
-      "last_confirmed_utc": "2026-10-11T16:31:53.653461+00:00",
+      "trigger_eur": 0.07606,
+      "invalidation_reference_eur": 0.07205,
+      "last_confirmed_utc": "2026-10-11T19:30:42.591279+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "UNCONFIRMED",
-      "score": 8,
-      "last_reason": "research_only_this_scan"
+      "current_confirmation": "SCANNER_WATCH",
+      "score": 7,
+      "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "SOL-EUR",
@@ -81,9 +81,9 @@
       "invalidation_reference_eur": 0.033587,
       "last_confirmed_utc": "2026-10-11T19:00:48.816842+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 8,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     },
     {
       "pair": "RAY-EUR",
@@ -251,7 +251,19 @@
       "event": "UNCONFIRMED",
       "reason": "research_only_this_scan",
       "timestamp_utc": "2026-10-11T19:00:48.816842+00:00"
+    },
+    {
+      "pair": "ARPA-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-11T19:30:42.591279+00:00"
+    },
+    {
+      "pair": "WAL-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-11T19:30:42.591279+00:00"
     }
   ],
-  "updated_utc": "2026-10-11T19:00:48.816842+00:00"
+  "updated_utc": "2026-10-11T19:30:42.591279+00:00"
 }

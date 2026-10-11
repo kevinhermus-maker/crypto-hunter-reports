@@ -1,39 +1,9 @@
 {
-  "timestamp_utc": "2026-10-11T15:34:52.133432+00:00",
-  "source_timestamp_utc": "2026-10-11T15:31:37.357087+00:00",
-  "source_age_seconds": 195,
+  "timestamp_utc": "2026-10-11T16:34:36.946565+00:00",
+  "source_timestamp_utc": "2026-10-11T16:31:53.753291+00:00",
+  "source_age_seconds": 163,
   "status": "RESEARCH_ONLY",
-  "candidates": [
-    {
-      "pair": "BILL-EUR",
-      "status": "FINAL_REVIEW",
-      "reasons": [
-        "independent_entry_news_fees_and_delisting_checks_still_required"
-      ],
-      "setup_research_routes": [
-        "BREAKOUT_RETEST_RESEARCH",
-        "MOMENTUM_BREAKOUT_RESEARCH",
-        "SUPPORT_REVERSAL_RESEARCH"
-      ],
-      "fresh_bid_eur": 0.009073,
-      "fresh_ask_eur": 0.009081,
-      "spread_pct": 0.088,
-      "simulated_buy_size_eur": 100.0,
-      "simulated_avg_fill_eur": 0.009079,
-      "estimated_book_impact_pct": -0.022,
-      "historical_target_quality": "REPEATED_HIGH_ZONE",
-      "target_zone_lower_eur": 0.009795,
-      "target_zone_upper_eur": 0.0105,
-      "target_zone_touches": 60,
-      "intermediate_wick_warning": true,
-      "historical_target_reference_eur": 0.009795,
-      "estimated_net_upside_pct": 7.09,
-      "invalidation_reference_eur": 0.0087603,
-      "invalidation_note": "15m MA20 reference only; Step 6 must verify structural support",
-      "mandatory_timeframes_valid": true,
-      "daily_timeframe_available": true
-    }
-  ],
+  "candidates": [],
   "manual_checks_required": [
     "Upcoming Bitvavo delistings (user checks)",
     "Independent news/catalyst or strong technical setup",

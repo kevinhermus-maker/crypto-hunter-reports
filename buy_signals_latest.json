@@ -1,104 +1,10 @@
 {
-  "timestamp_utc": "2026-10-11T15:34:53.192966+00:00",
+  "timestamp_utc": "2026-10-11T16:34:37.277896+00:00",
   "status": "OK",
-  "signals": [
-    {
-      "pair": "BILL-EUR",
-      "status": "BUY",
-      "reasons": [],
-      "diagnostic_version": "2.4",
-      "scanner_status": "EARLY_WATCH",
-      "fresh_ask_eur": 0.009081,
-      "spread_pct": 0.099,
-      "intermediate_hourly_zones": [],
-      "setup_diagnostics": {
-        "momentum_breakout": {
-          "route_permitted": true,
-          "pattern_confirmed": true,
-          "checks": {
-            "prior_close_below_level": true,
-            "last_close_above_level": true,
-            "volume_1_5x": true,
-            "entry_near_breakout": true
-          },
-          "failed_checks": [],
-          "support_reference_eur": 0.008653,
-          "support_is_verified_stop": false,
-          "risk_distance_pct": 4.946,
-          "risk_within_4pct": false,
-          "reward_risk": 1.428,
-          "reward_risk_at_least_1_5": false,
-          "eligible": false
-        },
-        "breakout_retest": {
-          "route_permitted": true,
-          "pattern_confirmed": true,
-          "checks": {
-            "earlier_volume_breakout": true,
-            "level_retested": true,
-            "retest_held": true,
-            "last_close_rising": true,
-            "last_close_above_level": true,
-            "volume_1_1x": true,
-            "entry_near_retest": true
-          },
-          "failed_checks": [],
-          "support_reference_eur": 0.008838,
-          "support_is_verified_stop": false,
-          "risk_distance_pct": 2.749,
-          "risk_within_4pct": true,
-          "reward_risk": 2.569,
-          "reward_risk_at_least_1_5": true,
-          "eligible": true
-        },
-        "support_reversal": {
-          "route_permitted": true,
-          "pattern_confirmed": false,
-          "checks": {
-            "higher_swing_low": true,
-            "previous_close_near_ma20": false,
-            "last_close_above_ma20": true,
-            "last_close_rising": true,
-            "volume_1_35x": true,
-            "entry_near_last_close": true
-          },
-          "failed_checks": [
-            "previous_close_near_ma20"
-          ],
-          "support_reference_eur": 0.008593,
-          "support_is_verified_stop": false,
-          "risk_distance_pct": 5.679,
-          "risk_within_4pct": false,
-          "reward_risk": 1.244,
-          "reward_risk_at_least_1_5": false,
-          "eligible": false
-        },
-        "context": {
-          "last_close_15m_eur": 0.009078,
-          "volume_ratio": 4.961,
-          "ma20_eur": 0.0087603,
-          "breakout_level_eur": 0.009029,
-          "retest_level_eur": 0.008867,
-          "old_low_eur": 0.008568,
-          "new_low_eur": 0.008593
-        }
-      },
-      "entry_reference_eur": 0.009081,
-      "target_reference_eur": 0.009795,
-      "target_quality": "REPEATED_HIGH_ZONE",
-      "estimated_net_upside_pct": 7.06,
-      "estimated_cost_buffer_pct": 0.8,
-      "setup": "breakout_retest",
-      "invalidation_reference_eur": 0.008838,
-      "risk_distance_pct": 2.75,
-      "estimated_reward_risk": 2.57,
-      "rejection_stage": null,
-      "note": "Read-only alert; not an order. Fees provisional; delisting and news checks are external."
-    }
-  ],
-  "buy_count": 1,
+  "signals": [],
+  "buy_count": 0,
   "diagnostic_version": "2.4",
   "note": "Read-only BUY/WATCH decisions. No orders placed.",
-  "evaluated_count": 1,
-  "upstream_ready_count": 1
+  "evaluated_count": 0,
+  "upstream_ready_count": 0
 }

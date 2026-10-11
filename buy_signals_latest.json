@@ -1,14 +1,22 @@
 {
-  "timestamp_utc": "2026-10-11T09:50:27.011241+00:00",
+  "timestamp_utc": "2026-10-11T09:58:00.662002+00:00",
   "status": "OK",
   "signals": [
     {
       "pair": "CT-EUR",
       "status": "WATCH",
       "reasons": [
-        "not_final_review"
+        "no_confirmed_setup_with_acceptable_risk"
       ],
-      "scanner_status": "TRIGGER_WATCH"
+      "scanner_status": "TRIGGER_WATCH",
+      "fresh_ask_eur": 0.29483,
+      "spread_pct": 0.126,
+      "intermediate_hourly_zones": [],
+      "entry_reference_eur": 0.295753692,
+      "target_reference_eur": 0.31953,
+      "target_quality": "REPEATED_HIGH_ZONE",
+      "estimated_net_upside_pct": 7.24,
+      "estimated_cost_buffer_pct": 0.8
     }
   ],
   "buy_count": 0,

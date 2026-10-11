@@ -1,35 +1,38 @@
 {
-  "timestamp_utc": "2026-10-11T09:50:25.910240+00:00",
-  "source_timestamp_utc": "2026-10-11T09:49:21.082632+00:00",
-  "source_age_seconds": 65,
+  "timestamp_utc": "2026-10-11T09:57:59.574022+00:00",
+  "source_timestamp_utc": "2026-10-11T09:56:50.320822+00:00",
+  "source_age_seconds": 69,
   "status": "RESEARCH_ONLY",
   "candidates": [
     {
       "pair": "CT-EUR",
-      "status": "WATCH",
+      "status": "FINAL_REVIEW",
       "reasons": [
-        "missing_step3_timeframe_data"
+        "independent_entry_news_fees_and_delisting_checks_still_required"
       ],
       "setup_research_routes": [
         "BREAKOUT_RETEST_RESEARCH",
         "MOMENTUM_BREAKOUT_RESEARCH",
         "SUPPORT_REVERSAL_RESEARCH"
       ],
-      "fresh_bid_eur": 0.29609,
-      "fresh_ask_eur": 0.29671,
-      "spread_pct": 0.209,
+      "fresh_bid_eur": 0.295,
+      "fresh_ask_eur": 0.29583,
+      "spread_pct": 0.281,
       "simulated_buy_size_eur": 100.0,
-      "simulated_avg_fill_eur": 0.29671,
-      "estimated_book_impact_pct": 0.0,
+      "simulated_avg_fill_eur": 0.295753692,
+      "estimated_book_impact_pct": -0.026,
       "historical_target_quality": "REPEATED_HIGH_ZONE",
       "target_zone_lower_eur": 0.31953,
       "target_zone_upper_eur": 0.3243,
       "target_zone_touches": 3,
-      "intermediate_wick_warning": true,
+      "intermediate_wick_warning": false,
       "historical_target_reference_eur": 0.31953,
-      "estimated_net_upside_pct": 6.89,
+      "estimated_net_upside_pct": 7.24,
       "invalidation_reference_eur": 0.28799,
-      "invalidation_note": "15m MA20 reference only; Step 6 must verify structural support"
+      "invalidation_note": "15m MA20 reference only; Step 6 must verify structural support",
+      "mandatory_timeframes_valid": true,
+      "daily_timeframe_available": false,
+      "daily_timeframe_note": "Insufficient daily history; no daily trend confirmation"
     }
   ],
   "manual_checks_required": [

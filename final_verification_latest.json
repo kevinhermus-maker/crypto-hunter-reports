@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-12T11:39:09.693433+00:00",
-  "source_timestamp_utc": "2026-10-12T11:36:07.193658+00:00",
-  "source_age_seconds": 182,
+  "timestamp_utc": "2026-10-12T12:56:26.291414+00:00",
+  "source_timestamp_utc": "2026-10-12T12:53:42.578070+00:00",
+  "source_age_seconds": 164,
   "status": "RESEARCH_ONLY",
   "candidates": [],
   "manual_checks_required": [

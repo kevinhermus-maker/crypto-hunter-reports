@@ -5,21 +5,21 @@
       "pair": "ARPA-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "breakout_preparation",
-      "trigger_eur": 0.0109749,
-      "invalidation_reference_eur": 0.0106115,
-      "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
+      "trigger_eur": 0.0109352,
+      "invalidation_reference_eur": 0.0104272,
+      "last_confirmed_utc": "2026-10-12T01:35:01.376741+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 6,
+      "score": 5,
       "last_reason": "confirmed_by_scanner"
     },
     {
       "pair": "CT-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "breakout_preparation",
-      "trigger_eur": 0.28792,
+      "trigger_eur": 0.28705,
       "invalidation_reference_eur": 0.27803,
-      "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
+      "last_confirmed_utc": "2026-10-12T01:35:01.376741+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 6,
@@ -29,12 +29,12 @@
       "pair": "NMR-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
       "setup_type": "breakout_preparation",
-      "trigger_eur": 12.4042,
+      "trigger_eur": 12.44,
       "invalidation_reference_eur": 12.0,
-      "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
+      "last_confirmed_utc": "2026-10-12T01:35:01.376741+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 6,
+      "score": 8,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -43,7 +43,7 @@
       "setup_type": "support_reversal",
       "trigger_eur": 0.07606,
       "invalidation_reference_eur": 0.07263,
-      "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
+      "last_confirmed_utc": "2026-10-12T01:35:01.376741+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
       "score": 7,
@@ -76,13 +76,13 @@
     {
       "pair": "WAL-EUR",
       "first_seen_utc": "2026-10-11T07:18:55.275258+00:00",
-      "setup_type": "support_reversal",
+      "setup_type": "breakout_preparation",
       "trigger_eur": 0.034173,
-      "invalidation_reference_eur": 0.033216,
-      "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
+      "invalidation_reference_eur": 0.03313,
+      "last_confirmed_utc": "2026-10-12T01:35:01.376741+00:00",
       "last_verified_status": "EARLY_WATCH",
       "current_confirmation": "SCANNER_WATCH",
-      "score": 10,
+      "score": 7,
       "last_reason": "confirmed_by_scanner"
     },
     {
@@ -93,9 +93,9 @@
       "invalidation_reference_eur": 2.10618,
       "last_confirmed_utc": "2026-10-12T00:45:25.864568+00:00",
       "last_verified_status": "EARLY_WATCH",
-      "current_confirmation": "SCANNER_WATCH",
+      "current_confirmation": "UNCONFIRMED",
       "score": 6,
-      "last_reason": "confirmed_by_scanner"
+      "last_reason": "research_only_this_scan"
     },
     {
       "pair": "AVAX-EUR",
@@ -281,7 +281,13 @@
       "event": "UNCONFIRMED",
       "reason": "research_only_this_scan",
       "timestamp_utc": "2026-10-11T22:30:58.247786+00:00"
+    },
+    {
+      "pair": "RAY-EUR",
+      "event": "UNCONFIRMED",
+      "reason": "research_only_this_scan",
+      "timestamp_utc": "2026-10-12T01:35:01.376741+00:00"
     }
   ],
-  "updated_utc": "2026-10-12T00:45:25.864568+00:00"
+  "updated_utc": "2026-10-12T01:35:01.376741+00:00"
 }

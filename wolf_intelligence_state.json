@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_utc": "2026-10-12T00:48:22.021124+00:00",
+  "updated_utc": "2026-10-12T01:37:35.316620+00:00",
   "events": [
     {
       "id": "2026-10-11T08:42:48.539493+00:00|WAL-EUR|FINAL_REVIEW",
@@ -12,13 +12,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.033911,
-      "last_observed_price_eur": 0.034,
-      "last_observed_utc": "2026-10-12T00:45:25.865831+00:00",
+      "last_observed_price_eur": 0.03313,
+      "last_observed_utc": "2026-10-12T01:35:01.378023+00:00",
       "observed_high_eur": 0.034416,
-      "observed_low_eur": 0.033287,
-      "last_change_pct": -0.343,
+      "observed_low_eur": 0.03313,
+      "last_change_pct": -2.893,
       "best_observed_change_pct": 0.876,
-      "worst_observed_change_pct": -2.433,
+      "worst_observed_change_pct": -2.893,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -31,11 +31,11 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.31953,
       "invalidation_reference_eur": 0.28799,
-      "last_observed_price_eur": 0.2867,
-      "last_observed_utc": "2026-10-12T00:45:25.865831+00:00",
+      "last_observed_price_eur": 0.28383,
+      "last_observed_utc": "2026-10-12T01:35:01.378023+00:00",
       "observed_high_eur": 0.295753692,
       "observed_low_eur": 0.2786,
-      "last_change_pct": -3.061,
+      "last_change_pct": -4.032,
       "best_observed_change_pct": 0.0,
       "worst_observed_change_pct": -5.8,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
@@ -50,13 +50,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.039,
       "invalidation_reference_eur": 0.03413285,
-      "last_observed_price_eur": 0.034,
-      "last_observed_utc": "2026-10-12T00:45:25.865831+00:00",
+      "last_observed_price_eur": 0.03313,
+      "last_observed_utc": "2026-10-12T01:35:01.378023+00:00",
       "observed_high_eur": 0.034254,
-      "observed_low_eur": 0.033287,
-      "last_change_pct": -0.53,
+      "observed_low_eur": 0.03313,
+      "last_change_pct": -3.075,
       "best_observed_change_pct": 0.214,
-      "worst_observed_change_pct": -2.615,
+      "worst_observed_change_pct": -3.075,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -69,13 +69,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.009795,
       "invalidation_reference_eur": 0.0087603,
-      "last_observed_price_eur": 0.008838,
-      "last_observed_utc": "2026-10-12T00:45:25.865831+00:00",
+      "last_observed_price_eur": 0.008707,
+      "last_observed_utc": "2026-10-12T01:35:01.378023+00:00",
       "observed_high_eur": 0.009298,
-      "observed_low_eur": 0.008755,
-      "last_change_pct": -2.654,
+      "observed_low_eur": 0.008707,
+      "last_change_pct": -4.097,
       "best_observed_change_pct": 2.412,
-      "worst_observed_change_pct": -3.569,
+      "worst_observed_change_pct": -4.097,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     },
     {
@@ -88,13 +88,13 @@
       "reference_type": "simulated_book_fill",
       "target_reference_eur": 0.47981,
       "invalidation_reference_eur": 0.4488015,
-      "last_observed_price_eur": 0.43068,
-      "last_observed_utc": "2026-10-12T00:45:25.865831+00:00",
+      "last_observed_price_eur": 0.41884,
+      "last_observed_utc": "2026-10-12T01:35:01.378023+00:00",
       "observed_high_eur": 0.4530587012,
-      "observed_low_eur": 0.43068,
-      "last_change_pct": -4.939,
+      "observed_low_eur": 0.41884,
+      "last_change_pct": -7.553,
       "best_observed_change_pct": 0.0,
-      "worst_observed_change_pct": -4.939,
+      "worst_observed_change_pct": -7.553,
       "note": "Observational only; no trade or BUY. Hourly snapshots can miss intrahour moves."
     }
   ]

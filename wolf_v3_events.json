@@ -1,4 +1,13 @@
 {
-  "time": "2026-10-15T12:53:12.276480+00:00",
-  "events": []
+  "time": "2026-10-15T13:51:03.979950+00:00",
+  "events": [
+    {
+      "event": "PAPER_SELL",
+      "time": "2026-10-15T13:48:05.291517+00:00",
+      "market": "BRETT-EUR",
+      "strategy": "Wolf A",
+      "reason": "protective_exit",
+      "pnl_eur": -2.8717
+    }
+  ]
 }

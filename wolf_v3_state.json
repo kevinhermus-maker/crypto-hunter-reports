@@ -47,7 +47,9 @@
       "highest_price": 0.052772719999999995,
       "profit_protection": false,
       "status": "OPEN"
-    },
+    }
+  ],
+  "closed": [
     {
       "id": "BRETT-EUR-Wolf A-1792057444117",
       "market": "BRETT-EUR",
@@ -62,10 +64,15 @@
       "target": 0.0044855,
       "highest_price": 0.0041878837,
       "profit_protection": false,
-      "status": "OPEN"
+      "status": "CLOSED",
+      "closed_at": "2026-10-15T13:48:05.291468+00:00",
+      "exit": 0.0040880079,
+      "exit_reason": "protective_exit",
+      "proceeds_eur": 97.1283,
+      "pnl_eur": -2.8717,
+      "net_return_pct": -2.872
     }
   ],
-  "closed": [],
   "version": "3.2",
-  "last_scan": "2026-10-15T12:53:12.275649+00:00"
+  "last_scan": "2026-10-15T13:51:03.979015+00:00"
 }

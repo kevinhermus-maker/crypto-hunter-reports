@@ -12,7 +12,7 @@
       "stop": 0.009569,
       "initial_stop": 0.009569,
       "target": 0.010467,
-      "highest_price": 0.00998,
+      "highest_price": 0.010116,
       "profit_protection": false,
       "status": "OPEN"
     },
@@ -41,11 +41,11 @@
       "entry": 0.052772719999999995,
       "quantity": 1890.1929527490058,
       "buy_cost_eur": 100.0,
-      "stop": 0.05175264,
+      "stop": 0.05340599263999998,
       "initial_stop": 0.05175264,
       "target": 0.055875,
-      "highest_price": 0.053289,
-      "profit_protection": false,
+      "highest_price": 0.055153,
+      "profit_protection": true,
       "status": "OPEN"
     }
   ],
@@ -74,5 +74,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-15T14:44:51.359190+00:00"
+  "last_scan": "2026-10-15T15:45:29.698554+00:00"
 }

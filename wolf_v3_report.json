@@ -1,45 +1,31 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-10-15T09:44:04.118243+00:00",
+  "time": "2026-10-15T10:43:39.879856+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 294,
-  "fully_analyzed": 294,
-  "signals": [
-    {
-      "strategy": "Wolf A",
-      "setup": "higher_low_reversal",
-      "entry": 0.0042199,
-      "stop": 0.0041037,
-      "target": 0.0044855,
-      "estimated_net_upside_pct": 5.553,
-      "risk_pct": 2.754,
-      "reward_risk": 2.29,
-      "market": "BRETT-EUR"
-    }
-  ],
-  "signal_count": 1,
+  "markets": 290,
+  "fully_analyzed": 290,
+  "signals": [],
+  "signal_count": 0,
   "open_paper": 4,
   "closed_paper": 0,
   "universe_rejections": {
-    "low_liquidity": 128,
-    "wide_spread": 4,
+    "low_liquidity": 130,
+    "wide_spread": 6,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "not_near_support": 41,
-    "hourly_not_recovering": 61,
-    "no_30m_trigger": 108,
-    "risk_too_large": 6,
-    "no_higher_low_or_reclaim": 44,
-    "no_support_touch": 1,
-    "weak_volume": 23,
+    "not_near_support": 77,
+    "no_30m_trigger": 37,
+    "hourly_not_recovering": 140,
+    "no_higher_low_or_reclaim": 25,
+    "no_support_touch": 3,
     "insufficient_history": 6,
-    "passed": 1,
-    "insufficient_net_upside": 3
+    "weak_volume": 1,
+    "risk_too_large": 1
   },
   "wolf_b_rejections": {
-    "breakout_unconfirmed": 267,
-    "watch_approaching_resistance": 21,
+    "breakout_unconfirmed": 265,
+    "watch_approaching_resistance": 19,
     "insufficient_history": 6
   },
   "performance": {
@@ -57,5 +43,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 178.43
+  "runtime_seconds": 175.82
 }

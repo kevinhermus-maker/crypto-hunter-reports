@@ -28,7 +28,7 @@
       "stop": 0.0082670304,
       "initial_stop": 0.0082670304,
       "target": 0.0091372,
-      "highest_price": 0.0087018,
+      "highest_price": 0.0087036,
       "profit_protection": false,
       "status": "OPEN"
     },
@@ -44,8 +44,24 @@
       "stop": 0.05340599263999998,
       "initial_stop": 0.05175264,
       "target": 0.055875,
-      "highest_price": 0.055664,
+      "highest_price": 0.055939,
       "profit_protection": true,
+      "status": "OPEN"
+    },
+    {
+      "id": "SKY-EUR-Wolf A-1792093211736",
+      "market": "SKY-EUR",
+      "strategy": "Wolf A",
+      "setup": "higher_low_reversal",
+      "opened_at": "2026-10-15T19:40:11.736561+00:00",
+      "entry": 0.06446339899999999,
+      "quantity": 1547.3993768370256,
+      "buy_cost_eur": 100.0,
+      "stop": 0.062267840000000005,
+      "initial_stop": 0.062267840000000005,
+      "target": 0.068396,
+      "highest_price": 0.06446339899999999,
+      "profit_protection": false,
       "status": "OPEN"
     }
   ],
@@ -74,5 +90,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-15T18:48:43.533008+00:00"
+  "last_scan": "2026-10-15T19:40:11.736584+00:00"
 }

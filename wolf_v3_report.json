@@ -1,45 +1,56 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-10-15T07:48:55.452396+00:00",
+  "time": "2026-10-15T08:45:38.898054+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 293,
-  "fully_analyzed": 293,
+  "markets": 292,
+  "fully_analyzed": 292,
   "signals": [
     {
       "strategy": "Wolf A",
       "setup": "higher_low_reversal",
-      "entry": 0.009795,
-      "stop": 0.009569,
-      "target": 0.010467,
-      "estimated_net_upside_pct": 6.115,
-      "risk_pct": 2.307,
-      "reward_risk": 2.97,
-      "market": "COTI-EUR"
+      "entry": 0.0085532,
+      "stop": 0.0082670304,
+      "target": 0.0091372,
+      "estimated_net_upside_pct": 6.083,
+      "risk_pct": 3.346,
+      "reward_risk": 2.04,
+      "market": "XAN-EUR"
+    },
+    {
+      "strategy": "Wolf A",
+      "setup": "higher_low_reversal",
+      "entry": 0.052806,
+      "stop": 0.05175264,
+      "target": 0.055875,
+      "estimated_net_upside_pct": 5.074,
+      "risk_pct": 1.995,
+      "reward_risk": 2.91,
+      "market": "SEI-EUR"
     }
   ],
-  "signal_count": 1,
-  "open_paper": 1,
+  "signal_count": 2,
+  "open_paper": 3,
   "closed_paper": 0,
   "universe_rejections": {
     "low_liquidity": 127,
-    "wide_spread": 6,
+    "wide_spread": 7,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "weak_volume": 32,
-    "no_30m_trigger": 96,
-    "insufficient_net_upside": 15,
-    "not_near_support": 44,
+    "not_near_support": 32,
+    "no_30m_trigger": 92,
+    "hourly_not_recovering": 69,
     "no_higher_low_or_reclaim": 48,
+    "weak_volume": 28,
     "no_support_touch": 1,
-    "hourly_not_recovering": 46,
+    "insufficient_net_upside": 12,
     "insufficient_history": 6,
-    "risk_too_large": 4,
-    "passed": 1
+    "risk_too_large": 2,
+    "passed": 2
   },
   "wolf_b_rejections": {
-    "breakout_unconfirmed": 277,
-    "watch_approaching_resistance": 10,
+    "breakout_unconfirmed": 269,
+    "watch_approaching_resistance": 17,
     "insufficient_history": 6
   },
   "performance": {
@@ -57,5 +68,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 177.06
+  "runtime_seconds": 176.6
 }

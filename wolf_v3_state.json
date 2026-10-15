@@ -1,6 +1,23 @@
 {
-  "open": [],
+  "open": [
+    {
+      "id": "COTI-EUR-Wolf A-1792050535451",
+      "market": "COTI-EUR",
+      "strategy": "Wolf A",
+      "setup": "higher_low_reversal",
+      "opened_at": "2026-10-15T07:48:55.451918+00:00",
+      "entry": 0.009860850999999999,
+      "quantity": 10115.823009737853,
+      "buy_cost_eur": 100.0,
+      "stop": 0.009569,
+      "initial_stop": 0.009569,
+      "target": 0.010467,
+      "highest_price": 0.009860850999999999,
+      "profit_protection": false,
+      "status": "OPEN"
+    }
+  ],
   "closed": [],
   "version": "3.2",
-  "last_scan": "2026-10-15T06:50:53.249827+00:00"
+  "last_scan": "2026-10-15T07:48:55.451943+00:00"
 }

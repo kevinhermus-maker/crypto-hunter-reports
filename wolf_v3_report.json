@@ -1,32 +1,30 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-10-15T22:42:11.595934+00:00",
+  "time": "2026-10-15T23:36:06.979779+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 310,
+  "markets": 309,
   "fully_analyzed": 309,
   "signals": [],
   "signal_count": 0,
   "open_paper": 4,
   "closed_paper": 1,
   "universe_rejections": {
-    "low_liquidity": 114,
+    "low_liquidity": 115,
     "wide_spread": 2,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "weak_volume": 30,
-    "no_30m_trigger": 63,
-    "not_near_support": 81,
-    "hourly_not_recovering": 114,
-    "no_higher_low_or_reclaim": 9,
-    "risk_too_large": 3,
-    "insufficient_history": 6,
-    "no_support_touch": 3
+    "no_30m_trigger": 47,
+    "hourly_not_recovering": 112,
+    "not_near_support": 107,
+    "no_higher_low_or_reclaim": 14,
+    "no_support_touch": 12,
+    "weak_volume": 11,
+    "insufficient_history": 6
   },
   "wolf_b_rejections": {
-    "watch_approaching_resistance": 152,
-    "breakout_unconfirmed": 150,
-    "insufficient_net_upside": 1,
+    "watch_approaching_resistance": 160,
+    "breakout_unconfirmed": 143,
     "insufficient_history": 6
   },
   "performance": {
@@ -43,12 +41,6 @@
       "net_pnl_eur": 0
     }
   },
-  "errors": [
-    {
-      "market": "SLX-EUR",
-      "stage": "analysis",
-      "error": "The read operation timed out"
-    }
-  ],
-  "runtime_seconds": 268.59
+  "errors": [],
+  "runtime_seconds": 186.96
 }

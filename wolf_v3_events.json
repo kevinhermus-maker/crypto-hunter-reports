@@ -1,4 +1,13 @@
 {
-  "time": "2026-10-16T02:41:11.177521+00:00",
-  "events": []
+  "time": "2026-10-16T03:41:11.557357+00:00",
+  "events": [
+    {
+      "event": "PAPER_SELL",
+      "time": "2026-10-16T03:38:18.387418+00:00",
+      "market": "SEI-EUR",
+      "strategy": "Wolf A",
+      "reason": "target_rejection",
+      "pnl_eur": 3.4557
+    }
+  ]
 }

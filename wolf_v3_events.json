@@ -1,4 +1,13 @@
 {
-  "time": "2026-10-16T14:44:35.121436+00:00",
-  "events": []
+  "time": "2026-10-16T15:41:36.493755+00:00",
+  "events": [
+    {
+      "event": "PAPER_SELL",
+      "time": "2026-10-16T15:39:05.160759+00:00",
+      "market": "COTI-EUR",
+      "strategy": "Wolf A",
+      "reason": "target_rejection",
+      "pnl_eur": 3.9596
+    }
+  ]
 }

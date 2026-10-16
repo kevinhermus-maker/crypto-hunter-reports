@@ -1,22 +1,6 @@
 {
   "open": [
     {
-      "id": "XAN-EUR-Wolf A-1792053938897",
-      "market": "XAN-EUR",
-      "strategy": "Wolf A",
-      "setup": "higher_low_reversal",
-      "opened_at": "2026-10-15T08:45:38.897440+00:00",
-      "entry": 0.008616007399999999,
-      "quantity": 11577.360465288892,
-      "buy_cost_eur": 100.0,
-      "stop": 0.008719399488799996,
-      "initial_stop": 0.0082670304,
-      "target": 0.0091372,
-      "highest_price": 0.0090509,
-      "profit_protection": true,
-      "status": "OPEN"
-    },
-    {
       "id": "SKY-EUR-Wolf A-1792093211736",
       "market": "SKY-EUR",
       "strategy": "Wolf A",
@@ -115,8 +99,30 @@
       "proceeds_eur": 103.9596,
       "pnl_eur": 3.9596,
       "net_return_pct": 3.96
+    },
+    {
+      "id": "XAN-EUR-Wolf A-1792053938897",
+      "market": "XAN-EUR",
+      "strategy": "Wolf A",
+      "setup": "higher_low_reversal",
+      "opened_at": "2026-10-15T08:45:38.897440+00:00",
+      "entry": 0.008616007399999999,
+      "quantity": 11577.360465288892,
+      "buy_cost_eur": 100.0,
+      "stop": 0.008719399488799996,
+      "initial_stop": 0.0082670304,
+      "target": 0.0091372,
+      "highest_price": 0.0090509,
+      "profit_protection": true,
+      "status": "CLOSED",
+      "closed_at": "2026-10-16T19:37:12.143847+00:00",
+      "exit": 0.008674316999999999,
+      "exit_reason": "protective_exit",
+      "proceeds_eur": 100.1746,
+      "pnl_eur": 0.1746,
+      "net_return_pct": 0.175
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-16T18:45:38.307561+00:00"
+  "last_scan": "2026-10-16T19:39:40.481579+00:00"
 }

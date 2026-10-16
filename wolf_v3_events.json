@@ -1,13 +1,4 @@
 {
-  "time": "2026-10-16T19:39:40.482462+00:00",
-  "events": [
-    {
-      "event": "PAPER_SELL",
-      "time": "2026-10-16T19:37:12.143877+00:00",
-      "market": "XAN-EUR",
-      "strategy": "Wolf A",
-      "reason": "protective_exit",
-      "pnl_eur": 0.1746
-    }
-  ]
+  "time": "2026-10-16T20:40:41.115487+00:00",
+  "events": []
 }

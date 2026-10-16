@@ -1,13 +1,14 @@
 {
-  "time": "2026-10-16T03:41:11.557357+00:00",
+  "time": "2026-10-16T04:41:59.907553+00:00",
   "events": [
     {
-      "event": "PAPER_SELL",
-      "time": "2026-10-16T03:38:18.387418+00:00",
-      "market": "SEI-EUR",
+      "event": "PAPER_BUY",
+      "time": "2026-10-16T04:41:59.906620+00:00",
+      "market": "RECALL-EUR",
       "strategy": "Wolf A",
-      "reason": "target_rejection",
-      "pnl_eur": 3.4557
+      "entry": 0.033463429999999995,
+      "target": 0.035803,
+      "stop": 0.032666
     }
   ]
 }

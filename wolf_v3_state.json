@@ -25,11 +25,11 @@
       "entry": 0.008616007399999999,
       "quantity": 11577.360465288892,
       "buy_cost_eur": 100.0,
-      "stop": 0.0082670304,
+      "stop": 0.008719399488799996,
       "initial_stop": 0.0082670304,
       "target": 0.0091372,
-      "highest_price": 0.0088484,
-      "profit_protection": false,
+      "highest_price": 0.0089571,
+      "profit_protection": true,
       "status": "OPEN"
     },
     {
@@ -45,6 +45,22 @@
       "initial_stop": 0.062267840000000005,
       "target": 0.068396,
       "highest_price": 0.06446339899999999,
+      "profit_protection": false,
+      "status": "OPEN"
+    },
+    {
+      "id": "RECALL-EUR-Wolf A-1792125719906",
+      "market": "RECALL-EUR",
+      "strategy": "Wolf A",
+      "setup": "support_reclaim",
+      "opened_at": "2026-10-16T04:41:59.906598+00:00",
+      "entry": 0.033463429999999995,
+      "quantity": 2980.8846087025904,
+      "buy_cost_eur": 100.0,
+      "stop": 0.032666,
+      "initial_stop": 0.032666,
+      "target": 0.035803,
+      "highest_price": 0.033463429999999995,
       "profit_protection": false,
       "status": "OPEN"
     }
@@ -96,5 +112,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-16T03:41:11.556427+00:00"
+  "last_scan": "2026-10-16T04:41:59.906624+00:00"
 }

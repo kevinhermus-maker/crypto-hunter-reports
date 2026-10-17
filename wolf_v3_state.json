@@ -25,11 +25,11 @@
       "entry": 0.033463429999999995,
       "quantity": 2980.8846087025904,
       "buy_cost_eur": 100.0,
-      "stop": 0.032666,
+      "stop": 0.03386499115999999,
       "initial_stop": 0.032666,
       "target": 0.035803,
-      "highest_price": 0.034542,
-      "profit_protection": false,
+      "highest_price": 0.035637,
+      "profit_protection": true,
       "status": "OPEN"
     }
   ],
@@ -124,5 +124,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-16T23:35:12.964158+00:00"
+  "last_scan": "2026-10-17T00:51:56.069140+00:00"
 }

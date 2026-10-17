@@ -1,13 +1,4 @@
 {
-  "time": "2026-10-17T13:37:46.340807+00:00",
-  "events": [
-    {
-      "event": "PAPER_SELL",
-      "time": "2026-10-17T13:35:27.477237+00:00",
-      "market": "SKY-EUR",
-      "strategy": "Wolf A",
-      "reason": "protective_exit",
-      "pnl_eur": -4.0282
-    }
-  ]
+  "time": "2026-10-17T14:36:32.981775+00:00",
+  "events": []
 }

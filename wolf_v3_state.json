@@ -1,5 +1,22 @@
 {
-  "open": [],
+  "open": [
+    {
+      "id": "FUN-EUR-Wolf B-1792510937710",
+      "market": "FUN-EUR",
+      "strategy": "Wolf B",
+      "setup": "confirmed_breakout",
+      "opened_at": "2026-10-20T15:42:17.710881+00:00",
+      "entry": 0.014298283999999998,
+      "quantity": 6976.4052414539065,
+      "buy_cost_eur": 100.0,
+      "stop": 0.013805,
+      "initial_stop": 0.013805,
+      "target": 0.016331,
+      "highest_price": 0.014298283999999998,
+      "profit_protection": false,
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "id": "BRETT-EUR-Wolf A-1792057444117",
@@ -135,5 +152,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-20T14:43:31.911631+00:00"
+  "last_scan": "2026-10-20T15:42:17.710918+00:00"
 }

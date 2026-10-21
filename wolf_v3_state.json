@@ -31,22 +31,6 @@
       "highest_price": 0.10333,
       "profit_protection": true,
       "status": "OPEN"
-    },
-    {
-      "id": "JUP-EUR-Wolf A-1792608419378",
-      "market": "JUP-EUR",
-      "strategy": "Wolf A",
-      "setup": "support_reclaim",
-      "opened_at": "2026-10-21T18:46:59.378181+00:00",
-      "entry": 0.30077046999999996,
-      "quantity": 331.6503227241575,
-      "buy_cost_eur": 100.0,
-      "stop": 0.29087,
-      "initial_stop": 0.29087,
-      "target": 0.32908,
-      "highest_price": 0.30077046999999996,
-      "profit_protection": false,
-      "status": "OPEN"
     }
   ],
   "closed": [
@@ -181,8 +165,30 @@
       "proceeds_eur": 100.0956,
       "pnl_eur": 0.0956,
       "net_return_pct": 0.096
+    },
+    {
+      "id": "JUP-EUR-Wolf A-1792608419378",
+      "market": "JUP-EUR",
+      "strategy": "Wolf A",
+      "setup": "support_reclaim",
+      "opened_at": "2026-10-21T18:46:59.378181+00:00",
+      "entry": 0.30077046999999996,
+      "quantity": 331.6503227241575,
+      "buy_cost_eur": 100.0,
+      "stop": 0.29087,
+      "initial_stop": 0.29087,
+      "target": 0.32908,
+      "highest_price": 0.30077046999999996,
+      "profit_protection": false,
+      "status": "CLOSED",
+      "closed_at": "2026-10-21T23:37:31.322793+00:00",
+      "exit": 0.28968003000000003,
+      "exit_reason": "protective_exit",
+      "proceeds_eur": 95.8323,
+      "pnl_eur": -4.1677,
+      "net_return_pct": -4.168
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-21T22:40:28.542282+00:00"
+  "last_scan": "2026-10-21T23:39:48.624932+00:00"
 }

@@ -1,60 +1,35 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-10-21T16:42:10.139055+00:00",
+  "time": "2026-10-21T17:39:50.135978+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 232,
-  "fully_analyzed": 232,
-  "signals": [
-    {
-      "strategy": "Wolf B",
-      "setup": "breakout_retest",
-      "entry": 0.09736,
-      "stop": 0.09488,
-      "target": 0.105,
-      "estimated_net_upside_pct": 7.095,
-      "risk_pct": 2.547,
-      "reward_risk": 3.08,
-      "market": "CC-EUR"
-    },
-    {
-      "strategy": "Wolf A",
-      "setup": "higher_low_reversal",
-      "entry": 0.09736,
-      "stop": 0.09299008,
-      "target": 0.105,
-      "estimated_net_upside_pct": 7.095,
-      "risk_pct": 4.488,
-      "reward_risk": 1.75,
-      "market": "CC-EUR"
-    }
-  ],
-  "signal_count": 2,
+  "markets": 233,
+  "fully_analyzed": 233,
+  "signals": [],
+  "signal_count": 0,
   "open_paper": 2,
   "closed_paper": 6,
   "universe_rejections": {
-    "low_liquidity": 190,
-    "wide_spread": 5,
+    "low_liquidity": 192,
+    "wide_spread": 2,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "insufficient_net_upside": 6,
-    "hourly_not_recovering": 35,
-    "no_30m_trigger": 81,
-    "not_near_support": 51,
-    "no_support_touch": 7,
-    "no_higher_low_or_reclaim": 38,
+    "hourly_not_recovering": 78,
+    "not_near_support": 69,
+    "no_support_touch": 8,
+    "no_higher_low_or_reclaim": 31,
+    "no_30m_trigger": 34,
     "insufficient_history": 6,
-    "risk_too_large": 2,
-    "weak_volume": 5,
-    "passed": 1
+    "insufficient_net_upside": 3,
+    "risk_too_large": 1,
+    "weak_volume": 3
   },
   "wolf_b_rejections": {
-    "insufficient_net_upside": 7,
-    "breakout_unconfirmed": 142,
-    "watch_approaching_resistance": 75,
+    "watch_approaching_resistance": 90,
+    "insufficient_net_upside": 3,
+    "breakout_unconfirmed": 131,
     "insufficient_history": 6,
-    "risk_too_large": 1,
-    "passed": 1
+    "risk_too_large": 3
   },
   "performance": {
     "Wolf A": {
@@ -71,5 +46,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 141.21
+  "runtime_seconds": 141.02
 }

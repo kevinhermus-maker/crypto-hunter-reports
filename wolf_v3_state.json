@@ -25,10 +25,26 @@
       "entry": 0.09692682999999999,
       "quantity": 1029.1332486721842,
       "buy_cost_eur": 100.0,
-      "stop": 0.09488,
+      "stop": 0.09808995195999998,
       "initial_stop": 0.09488,
       "target": 0.105,
-      "highest_price": 0.09692682999999999,
+      "highest_price": 0.10057,
+      "profit_protection": true,
+      "status": "OPEN"
+    },
+    {
+      "id": "JUP-EUR-Wolf A-1792608419378",
+      "market": "JUP-EUR",
+      "strategy": "Wolf A",
+      "setup": "support_reclaim",
+      "opened_at": "2026-10-21T18:46:59.378181+00:00",
+      "entry": 0.30077046999999996,
+      "quantity": 331.6503227241575,
+      "buy_cost_eur": 100.0,
+      "stop": 0.29087,
+      "initial_stop": 0.29087,
+      "target": 0.32908,
+      "highest_price": 0.30077046999999996,
       "profit_protection": false,
       "status": "OPEN"
     }
@@ -168,5 +184,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-21T17:39:50.135364+00:00"
+  "last_scan": "2026-10-21T18:46:59.378211+00:00"
 }

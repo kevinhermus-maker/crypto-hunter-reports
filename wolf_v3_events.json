@@ -1,13 +1,4 @@
 {
-  "time": "2026-10-22T06:50:28.682060+00:00",
-  "events": [
-    {
-      "event": "PAPER_SELL",
-      "time": "2026-10-22T06:47:59.141599+00:00",
-      "market": "FUN-EUR",
-      "strategy": "Wolf B",
-      "reason": "protective_exit",
-      "pnl_eur": -4.7089
-    }
-  ]
+  "time": "2026-10-22T07:52:33.943479+00:00",
+  "events": []
 }

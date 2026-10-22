@@ -1,13 +1,14 @@
 {
-  "time": "2026-10-21T23:39:48.626026+00:00",
+  "time": "2026-10-22T00:52:18.300727+00:00",
   "events": [
     {
-      "event": "PAPER_SELL",
-      "time": "2026-10-21T23:37:31.322823+00:00",
-      "market": "JUP-EUR",
+      "event": "PAPER_BUY",
+      "time": "2026-10-22T00:52:18.299747+00:00",
+      "market": "RECALL-EUR",
       "strategy": "Wolf A",
-      "reason": "protective_exit",
-      "pnl_eur": -4.1677
+      "entry": 0.033362328999999996,
+      "target": 0.035803,
+      "stop": 0.032736
     }
   ]
 }

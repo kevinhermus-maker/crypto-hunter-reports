@@ -17,22 +17,6 @@
       "status": "OPEN"
     },
     {
-      "id": "CC-EUR-Wolf B-1792600930138",
-      "market": "CC-EUR",
-      "strategy": "Wolf B",
-      "setup": "breakout_retest",
-      "opened_at": "2026-10-21T16:42:10.138063+00:00",
-      "entry": 0.09692682999999999,
-      "quantity": 1029.1332486721842,
-      "buy_cost_eur": 100.0,
-      "stop": 0.09808995195999998,
-      "initial_stop": 0.09488,
-      "target": 0.105,
-      "highest_price": 0.10333,
-      "profit_protection": true,
-      "status": "OPEN"
-    },
-    {
       "id": "RECALL-EUR-Wolf A-1792630338299",
       "market": "RECALL-EUR",
       "strategy": "Wolf A",
@@ -203,8 +187,30 @@
       "proceeds_eur": 95.8323,
       "pnl_eur": -4.1677,
       "net_return_pct": -4.168
+    },
+    {
+      "id": "CC-EUR-Wolf B-1792600930138",
+      "market": "CC-EUR",
+      "strategy": "Wolf B",
+      "setup": "breakout_retest",
+      "opened_at": "2026-10-21T16:42:10.138063+00:00",
+      "entry": 0.09692682999999999,
+      "quantity": 1029.1332486721842,
+      "buy_cost_eur": 100.0,
+      "stop": 0.09808995195999998,
+      "initial_stop": 0.09488,
+      "target": 0.105,
+      "highest_price": 0.10333,
+      "profit_protection": true,
+      "status": "CLOSED",
+      "closed_at": "2026-10-22T01:41:37.465497+00:00",
+      "exit": 0.0968031,
+      "exit_reason": "protective_exit",
+      "proceeds_eur": 99.3742,
+      "pnl_eur": -0.6258,
+      "net_return_pct": -0.626
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-10-22T00:52:18.299751+00:00"
+  "last_scan": "2026-10-22T01:43:55.733035+00:00"
 }

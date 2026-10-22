@@ -1,42 +1,31 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-10-22T00:52:18.300346+00:00",
+  "time": "2026-10-22T01:43:55.733685+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 230,
-  "fully_analyzed": 230,
-  "signals": [
-    {
-      "strategy": "Wolf A",
-      "setup": "support_reclaim",
-      "entry": 0.033473,
-      "stop": 0.032736,
-      "target": 0.035803,
-      "estimated_net_upside_pct": 6.215,
-      "risk_pct": 2.202,
-      "reward_risk": 3.16,
-      "market": "RECALL-EUR"
-    }
-  ],
-  "signal_count": 1,
-  "open_paper": 3,
-  "closed_paper": 7,
+  "markets": 229,
+  "fully_analyzed": 229,
+  "signals": [],
+  "signal_count": 0,
+  "open_paper": 2,
+  "closed_paper": 8,
   "universe_rejections": {
-    "low_liquidity": 192,
-    "wide_spread": 5,
+    "low_liquidity": 191,
+    "wide_spread": 7,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "hourly_not_recovering": 103,
-    "no_support_touch": 15,
-    "no_higher_low_or_reclaim": 72,
-    "not_near_support": 23,
-    "no_30m_trigger": 10,
+    "no_30m_trigger": 29,
+    "no_support_touch": 14,
+    "no_higher_low_or_reclaim": 82,
+    "hourly_not_recovering": 50,
+    "not_near_support": 38,
     "insufficient_history": 6,
-    "passed": 1
+    "weak_volume": 8,
+    "insufficient_net_upside": 2
   },
   "wolf_b_rejections": {
-    "watch_approaching_resistance": 131,
-    "breakout_unconfirmed": 93,
+    "watch_approaching_resistance": 136,
+    "breakout_unconfirmed": 87,
     "insufficient_history": 6
   },
   "performance": {
@@ -47,12 +36,12 @@
       "net_pnl_eur": -3.38
     },
     "Wolf B": {
-      "completed": 0,
+      "completed": 1,
       "wins": 0,
-      "win_rate_pct": 0,
-      "net_pnl_eur": 0
+      "win_rate_pct": 0.0,
+      "net_pnl_eur": -0.63
     }
   },
   "errors": [],
-  "runtime_seconds": 140.24
+  "runtime_seconds": 138.64
 }

@@ -1,13 +1,4 @@
 {
-  "time": "2026-10-22T02:41:04.275320+00:00",
-  "events": [
-    {
-      "event": "PAPER_SELL",
-      "time": "2026-10-22T02:38:44.639548+00:00",
-      "market": "RECALL-EUR",
-      "strategy": "Wolf A",
-      "reason": "protective_exit",
-      "pnl_eur": -3.6413
-    }
-  ]
+  "time": "2026-10-22T03:41:19.116905+00:00",
+  "events": []
 }

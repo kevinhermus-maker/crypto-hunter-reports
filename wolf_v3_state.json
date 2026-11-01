@@ -28,7 +28,7 @@
       "stop": 0.07090816,
       "initial_stop": 0.07090816,
       "target": 0.07847,
-      "highest_price": 0.074242,
+      "highest_price": 0.074471,
       "profit_protection": false,
       "status": "OPEN"
     }
@@ -256,5 +256,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-11-01T08:54:38.918389+00:00"
+  "last_scan": "2026-11-01T09:50:58.035548+00:00"
 }

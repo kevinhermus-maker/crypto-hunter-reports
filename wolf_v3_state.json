@@ -1,5 +1,22 @@
 {
-  "open": [],
+  "open": [
+    {
+      "id": "AAVE-EUR-Wolf B-1793508993112",
+      "market": "AAVE-EUR",
+      "strategy": "Wolf B",
+      "setup": "breakout_retest",
+      "opened_at": "2026-11-01T04:56:33.112798+00:00",
+      "entry": 124.76463999999999,
+      "quantity": 0.7995103696159147,
+      "buy_cost_eur": 100.0,
+      "stop": 119.72,
+      "initial_stop": 119.72,
+      "target": 133.88,
+      "highest_price": 124.76463999999999,
+      "profit_protection": false,
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "id": "BRETT-EUR-Wolf A-1792057444117",
@@ -223,5 +240,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-11-01T03:56:59.051830+00:00"
+  "last_scan": "2026-11-01T04:56:33.112827+00:00"
 }

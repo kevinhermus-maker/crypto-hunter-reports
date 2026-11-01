@@ -1,19 +1,19 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-11-01T04:56:33.113509+00:00",
+  "time": "2026-11-01T05:51:53.536760+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 222,
-  "fully_analyzed": 222,
+  "markets": 220,
+  "fully_analyzed": 220,
   "signals": [
     {
       "strategy": "Wolf B",
       "setup": "breakout_retest",
-      "entry": 123.82,
-      "stop": 119.72,
+      "entry": 125.44,
+      "stop": 120.51,
       "target": 133.88,
-      "estimated_net_upside_pct": 7.37,
-      "risk_pct": 3.311,
-      "reward_risk": 2.45,
+      "estimated_net_upside_pct": 5.984,
+      "risk_pct": 3.93,
+      "reward_risk": 1.71,
       "market": "AAVE-EUR"
     }
   ],
@@ -21,25 +21,24 @@
   "open_paper": 1,
   "closed_paper": 10,
   "universe_rejections": {
-    "low_liquidity": 199,
-    "wide_spread": 5,
+    "low_liquidity": 200,
+    "wide_spread": 6,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "no_30m_trigger": 34,
-    "not_near_support": 18,
-    "hourly_not_recovering": 58,
-    "weak_volume": 17,
-    "no_higher_low_or_reclaim": 64,
-    "risk_too_large": 2,
-    "no_support_touch": 18,
-    "insufficient_net_upside": 7,
+    "no_30m_trigger": 29,
+    "hourly_not_recovering": 60,
+    "weak_volume": 14,
+    "not_near_support": 34,
+    "no_higher_low_or_reclaim": 57,
+    "insufficient_net_upside": 5,
+    "no_support_touch": 14,
+    "risk_too_large": 3,
     "insufficient_history": 4
   },
   "wolf_b_rejections": {
-    "breakout_unconfirmed": 122,
-    "watch_approaching_resistance": 93,
-    "risk_too_large": 1,
+    "breakout_unconfirmed": 112,
+    "watch_approaching_resistance": 102,
     "passed": 1,
     "insufficient_net_upside": 1,
     "insufficient_history": 4
@@ -59,5 +58,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 134.41
+  "runtime_seconds": 133.0
 }

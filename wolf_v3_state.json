@@ -1,22 +1,6 @@
 {
   "open": [
     {
-      "id": "AAVE-EUR-Wolf B-1793508993112",
-      "market": "AAVE-EUR",
-      "strategy": "Wolf B",
-      "setup": "breakout_retest",
-      "opened_at": "2026-11-01T04:56:33.112798+00:00",
-      "entry": 124.76463999999999,
-      "quantity": 0.7995103696159147,
-      "buy_cost_eur": 100.0,
-      "stop": 119.72,
-      "initial_stop": 119.72,
-      "target": 133.88,
-      "highest_price": 124.76463999999999,
-      "profit_protection": false,
-      "status": "OPEN"
-    },
-    {
       "id": "1INCH-EUR-Wolf A-1793516538032",
       "market": "1INCH-EUR",
       "strategy": "Wolf A",
@@ -253,8 +237,30 @@
       "proceeds_eur": 95.2911,
       "pnl_eur": -4.7089,
       "net_return_pct": -4.709
+    },
+    {
+      "id": "AAVE-EUR-Wolf B-1793508993112",
+      "market": "AAVE-EUR",
+      "strategy": "Wolf B",
+      "setup": "breakout_retest",
+      "opened_at": "2026-11-01T04:56:33.112798+00:00",
+      "entry": 124.76463999999999,
+      "quantity": 0.7995103696159147,
+      "buy_cost_eur": 100.0,
+      "stop": 119.72,
+      "initial_stop": 119.72,
+      "target": 133.88,
+      "highest_price": 124.76463999999999,
+      "profit_protection": false,
+      "status": "CLOSED",
+      "closed_at": "2026-11-02T06:06:16.457739+00:00",
+      "exit": 119.10078,
+      "exit_reason": "protective_exit",
+      "proceeds_eur": 94.9843,
+      "pnl_eur": -5.0157,
+      "net_return_pct": -5.016
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-11-02T05:06:48.490061+00:00"
+  "last_scan": "2026-11-02T06:08:45.754966+00:00"
 }

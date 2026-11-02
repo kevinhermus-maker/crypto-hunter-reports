@@ -1,4 +1,13 @@
 {
-  "time": "2026-11-02T05:06:48.491135+00:00",
-  "events": []
+  "time": "2026-11-02T06:08:45.756082+00:00",
+  "events": [
+    {
+      "event": "PAPER_SELL",
+      "time": "2026-11-02T06:06:16.457772+00:00",
+      "market": "AAVE-EUR",
+      "strategy": "Wolf B",
+      "reason": "protective_exit",
+      "pnl_eur": -5.0157
+    }
+  ]
 }

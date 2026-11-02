@@ -1,4 +1,13 @@
 {
-  "time": "2026-11-02T19:01:28.698288+00:00",
-  "events": []
+  "time": "2026-11-02T19:59:12.828586+00:00",
+  "events": [
+    {
+      "event": "PAPER_SELL",
+      "time": "2026-11-02T19:56:19.376577+00:00",
+      "market": "1INCH-EUR",
+      "strategy": "Wolf A",
+      "reason": "protective_exit",
+      "pnl_eur": -4.7603
+    }
+  ]
 }

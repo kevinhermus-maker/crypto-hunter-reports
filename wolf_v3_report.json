@@ -1,33 +1,44 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-11-02T14:25:01.150530+00:00",
+  "time": "2026-11-02T16:06:45.011986+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 266,
-  "fully_analyzed": 266,
-  "signals": [],
-  "signal_count": 0,
+  "markets": 271,
+  "fully_analyzed": 271,
+  "signals": [
+    {
+      "strategy": "Wolf A",
+      "setup": "higher_low_reversal",
+      "entry": 0.03717,
+      "stop": 0.03601952,
+      "target": 0.03936,
+      "estimated_net_upside_pct": 5.153,
+      "risk_pct": 3.095,
+      "reward_risk": 1.9,
+      "market": "SLX-EUR"
+    }
+  ],
+  "signal_count": 1,
   "open_paper": 1,
   "closed_paper": 11,
   "universe_rejections": {
-    "low_liquidity": 156,
+    "low_liquidity": 151,
     "wide_spread": 4,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "no_30m_trigger": 41,
-    "no_higher_low_or_reclaim": 90,
-    "hourly_not_recovering": 32,
-    "not_near_support": 30,
-    "insufficient_net_upside": 30,
-    "weak_volume": 24,
-    "risk_too_large": 2,
+    "hourly_not_recovering": 97,
+    "no_higher_low_or_reclaim": 117,
+    "no_30m_trigger": 32,
+    "weak_volume": 11,
+    "insufficient_net_upside": 6,
     "insufficient_history": 2,
-    "no_support_touch": 15
+    "no_support_touch": 4,
+    "stop_too_close": 1,
+    "passed": 1
   },
   "wolf_b_rejections": {
-    "watch_approaching_resistance": 95,
-    "breakout_unconfirmed": 168,
-    "insufficient_net_upside": 1,
+    "watch_approaching_resistance": 69,
+    "breakout_unconfirmed": 200,
     "insufficient_history": 2
   },
   "performance": {
@@ -45,5 +56,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 160.56
+  "runtime_seconds": 164.11
 }

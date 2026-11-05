@@ -1,13 +1,4 @@
 {
-  "time": "2026-11-05T17:21:07.297950+00:00",
-  "events": [
-    {
-      "event": "PAPER_SELL",
-      "time": "2026-11-05T17:18:35.761875+00:00",
-      "market": "POL-EUR",
-      "strategy": "Wolf B",
-      "reason": "protective_exit",
-      "pnl_eur": -7.5469
-    }
-  ]
+  "time": "2026-11-05T19:01:11.453169+00:00",
+  "events": []
 }

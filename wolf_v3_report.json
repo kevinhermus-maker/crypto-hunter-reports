@@ -1,32 +1,33 @@
 {
   "version": "Wolf V3.2",
-  "time": "2026-11-05T01:11:23.397954+00:00",
+  "time": "2026-11-05T02:18:07.687064+00:00",
   "mode": "PAPER_ONLY",
-  "markets": 244,
-  "fully_analyzed": 244,
+  "markets": 245,
+  "fully_analyzed": 245,
   "signals": [],
   "signal_count": 0,
   "open_paper": 0,
   "closed_paper": 12,
   "universe_rejections": {
-    "low_liquidity": 176,
+    "low_liquidity": 175,
     "wide_spread": 5,
     "excluded": 1
   },
   "wolf_a_rejections": {
-    "hourly_not_recovering": 104,
-    "no_30m_trigger": 31,
-    "not_near_support": 58,
-    "no_support_touch": 8,
-    "weak_volume": 18,
+    "no_30m_trigger": 18,
+    "weak_volume": 35,
+    "not_near_support": 65,
+    "no_higher_low_or_reclaim": 25,
+    "hourly_not_recovering": 81,
+    "insufficient_net_upside": 10,
     "risk_too_large": 2,
-    "no_higher_low_or_reclaim": 21,
-    "insufficient_history": 2
+    "insufficient_history": 2,
+    "no_support_touch": 7
   },
   "wolf_b_rejections": {
-    "watch_approaching_resistance": 143,
-    "breakout_unconfirmed": 98,
-    "risk_too_large": 1,
+    "watch_approaching_resistance": 140,
+    "breakout_unconfirmed": 100,
+    "insufficient_net_upside": 3,
     "insufficient_history": 2
   },
   "performance": {
@@ -44,5 +45,5 @@
     }
   },
   "errors": [],
-  "runtime_seconds": 147.47
+  "runtime_seconds": 148.04
 }

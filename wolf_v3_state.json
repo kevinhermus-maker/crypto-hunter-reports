@@ -1,5 +1,22 @@
 {
-  "open": [],
+  "open": [
+    {
+      "id": "POL-EUR-Wolf B-1793869646651",
+      "market": "POL-EUR",
+      "strategy": "Wolf B",
+      "setup": "breakout_retest",
+      "opened_at": "2026-11-05T09:07:26.651034+00:00",
+      "entry": 0.08772864099999998,
+      "quantity": 1137.0360044833767,
+      "buy_cost_eur": 100.0,
+      "stop": 0.08561,
+      "initial_stop": 0.08561,
+      "target": 0.096322,
+      "highest_price": 0.08772864099999998,
+      "profit_protection": false,
+      "status": "OPEN"
+    }
+  ],
   "closed": [
     {
       "id": "BRETT-EUR-Wolf A-1792057444117",
@@ -267,5 +284,5 @@
     }
   ],
   "version": "3.2",
-  "last_scan": "2026-11-05T07:25:11.939978+00:00"
+  "last_scan": "2026-11-05T09:07:26.651069+00:00"
 }
